@@ -1,18 +1,13 @@
-# main links links
 main:
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
   - title: "Publications"
     url: /publications/
-
- 
-
-  - title: "Research"
-    url: /teaching/    
-    
-
-
-    
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Outreach"
+    url: /outreach/
   - title: "CV"
     url: /cv/
-
-  - title: "Contact"
-    url: /contact/
