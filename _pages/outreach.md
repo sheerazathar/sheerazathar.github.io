@@ -1,63 +1,45 @@
 ---
-layout: archive
-title: "Outreach"
+layout: page
+title: Outreach
 permalink: /outreach/
-author_profile: true
 ---
+## Outreach and Broadening Participation
 
-## K–12 and Community Outreach
-
-I am committed to broadening participation in engineering and helping students from
-underrepresented communities engage with robotics and STEM at an early stage.  
-At Purdue University, I have been actively involved in several outreach activities:
-
-- **Lab tours and hands-on demonstrations**  
-  Organized visits to the MARS Lab for middle- and high-school students from
-  Indianapolis, IN and Kettering, OH. Activities included robot demos,
-  simple perception experiments, and discussions on pathways into engineering.
-
-- **Purdue FIRST Programs**  
-  Supported \[Purdue FIRST Programs](https://www.purduefirst.org/) by
-  giving lab tours and Q&A sessions for FRC and FTC teams, highlighting how
-  concepts from competition robots connect to university-level research.
-
-## Minority Engineering & Pre-College Programs
-
-I work closely with initiatives aimed at students from multi-ethnic and
-first-generation backgrounds:
-
-- **Minority Engineering Program (MEP)**  
-  Participated in outreach events organized by the  
-  \[Minority Engineering Program (MEP)](https://engineering.purdue.edu/MEP),
-  sharing my experience as an international/first-generation researcher and
-  discussing research opportunities in robotics and tactile sensing.
-
-- **Multi-Ethnic Introduction to Engineering (MITE)**  
-  Delivered lab demonstrations and informal talks for students in the MITE
-  summer program, introducing them to soft robotics, tactile sensing, and
-  autonomous systems.
-
-- **Pre-Freshman and Cooperative Education (PREFACE)**  
-  Contributed to activities for PREFACE participants, focusing on how
-  fundamental physics and mathematics appear in robot design, sensing, and
-  control.
-
-## Student Clubs and Mentoring
-
-- **Autonomous Robotics Club (ARC), Purdue**  
-  Served as an advisor for the \[Autonomous Robotics Club (ARC)](https://purduearc.com/),
-  providing guidance on perception, manipulation, and system integration.
-  Helped student teams connect their competition projects with research-level
-  topics such as multimodal sensing and embodied intelligence.
-
-- **Individual mentoring**  
-  Mentored undergraduate and master’s students from diverse backgrounds on
-  research projects in tactile sensing, soft robotics, and underwater
-  systems, with an emphasis on inclusive, hands-on learning and long-term
-  growth.
+Broadening participation in engineering is a central component of my academic mission. I view outreach not as an isolated activity, but as an extension of teaching and mentorship—one that helps students from diverse backgrounds gain early exposure to engineering, robotics, and intelligent systems. Through sustained engagement at the K–12, pre-college, and undergraduate levels, I aim to create inclusive pathways into engineering education and research.
 
 ---
 
-If you are a student or educator interested in lab tours, demos, or
-collaborative outreach activities, feel free to contact me at
-**sathar@purdue.edu**.
+## Purdue University Programs
+
+### Minority Engineering Program (MEP)
+I have actively participated in Purdue’s Minority Engineering Program, mentoring undergraduate students through academic support, professional development, and exposure to research opportunities. Through MEP, I have worked closely with students from historically underrepresented and first-generation backgrounds, helping them navigate coursework, explore research directions, and build confidence in their engineering identity.
+
+https://www.purdue.edu/engineering/MEP/
+
+### PREFACE (Pre-Freshman Engineering Program)
+Through Purdue’s PREFACE initiative, I engaged with incoming engineering students during their transition into the university. My involvement focused on mentoring, academic preparedness, and introducing students to hands-on engineering concepts, particularly in robotics and automation. These early interventions play a critical role in student retention and long-term success.
+
+https://www.purdue.edu/engineering/Initiatives/Pre-College/Programs/PREFACE.html
+
+---
+
+## K–12 and Pre-College Outreach
+
+### FIRST Robotics
+I have supported outreach activities connected to FIRST Robotics, mentoring students and teams engaged in robotics-based learning. These experiences emphasize teamwork, problem-solving, and real-world engineering design, while also helping students develop early interest in STEM fields.
+
+https://www.firstinspires.org/
+
+---
+
+## Research-Driven Outreach
+
+My outreach efforts are closely integrated with my research and teaching. I regularly involve undergraduate students in hands-on research projects related to robotics, sensing, and intelligent systems, providing early exposure to research methodologies and experimental thinking. These experiences help students—particularly those without prior research access—develop technical confidence and envision pathways into graduate study and engineering careers.
+
+I also use student-led project demonstrations and public showcases as outreach tools, enabling broader audiences to engage with engineering research through tangible, interactive systems. By highlighting student work in robotics and automation, I aim to demystify advanced engineering concepts and make them accessible to diverse communities.
+
+---
+
+## Commitment to Inclusive Engineering Education
+
+My commitment to outreach is informed by my own educational journey and by my experience mentoring students from varied cultural, socioeconomic, and educational backgrounds. I strive to create learning and outreach environments where students feel welcomed, supported, and empowered to pursue engineering. These values guide my teaching, research mentoring, and service activities and align closely with the broader mission of engineering education at Purdue University.
