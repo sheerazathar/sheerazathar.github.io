@@ -20,21 +20,21 @@ Program link: <https://www.purdue.edu/engineering/MEP/>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/bss/10.jpg" alt="Blue Sky Summer Scholars Program" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/bss/10.jpg" alt="Blue Sky Summer Scholars Program" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/bss/11.jpg" alt="Blue Sky Summer Scholars Program activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/bss/11.jpg" alt="Blue Sky Summer Scholars Program activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/bss/12.jpg" alt="Blue Sky Summer Scholars Program lab tour" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/bss/12.jpg" alt="Blue Sky Summer Scholars Program lab tour" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
@@ -49,21 +49,21 @@ Program link: <https://www.purdue.edu/engineering/MEP/>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/mite/2_1.jpg" alt="MITE Summer Program" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/mite/2_1.jpg" alt="MITE Summer Program" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/mite/5.jpg" alt="MITE robotics activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/mite/5.jpg" alt="MITE robotics activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/mite/6.jpg" alt="MITE lab tour" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/mite/6.jpg" alt="MITE lab tour" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
@@ -78,21 +78,21 @@ Program link: <https://www.purdue.edu/engineering/Initiatives/Pre-College/Progra
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/preface/3_1.jpg" alt="PREFACE Summer Program" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/preface/3_1.jpg" alt="PREFACE Summer Program" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/preface/7.jpg" alt="PREFACE activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/preface/7.jpg" alt="PREFACE activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/preface/8.jpg" alt="PREFACE lab demo" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/preface/8.jpg" alt="PREFACE lab demo" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
@@ -107,21 +107,21 @@ Program link: <https://www.purdue.edu/engineering/Initiatives/Pre-College/Progra
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/preface24/16.jpg" alt="PREFACE 2024" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/preface24/16.jpg" alt="PREFACE 2024" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/preface24/17.jpg" alt="PREFACE 2024 activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/preface24/17.jpg" alt="PREFACE 2024 activity" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/preface24/18.jpg" alt="PREFACE 2024 lab tour" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/preface24/18.jpg" alt="PREFACE 2024 lab tour" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
@@ -136,21 +136,21 @@ Program link: <https://www.firstinspires.org/>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/purdue-first/2.jpg" alt="Purdue FIRST Robotics" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/purdue-first/2.jpg" alt="Purdue FIRST Robotics" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/purdue-first/3.jpg" alt="Purdue FIRST Robotics demo" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/purdue-first/3.jpg" alt="Purdue FIRST Robotics demo" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
   <div class="grid__item">
     <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="/images/purdue-first/4.jpg" alt="Purdue FIRST Robotics lab visit" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
+        <img src="/images/outreach/purdue-first/4.jpg" alt="Purdue FIRST Robotics lab visit" style="width:100%; height:230px; object-fit:cover; border-radius:8px;">
       </div>
     </article>
   </div>
