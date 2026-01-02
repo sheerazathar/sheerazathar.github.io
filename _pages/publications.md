@@ -99,7 +99,8 @@ classes: wide
     </div>
     <div class="pub-links">
       <a href="https://doi.org/10.1002/adrr.202500117" target="_blank">DOI</a>
-      <a href="#">Video</a>
+      <a href="https://www.youtube.com/watch?v=vnFHvJH3SpY&t=2s" target="_blank" rel="noopener">Video</a>
+
     </div>
   </div>
 </div>
@@ -120,7 +121,7 @@ classes: wide
     </div>
     <div class="pub-links">
       <a href="https://doi.org/10.1109/TOH.2025.3561049" target="_blank">DOI</a>
-      <a href="#">Video</a>
+       <a href="https://www.youtube.com/watch?v=kmKIUlXGroo&t=12s" target="_blank" rel="noopener">Video</a>
     </div>
   </div>
 </div>
@@ -141,7 +142,7 @@ classes: wide
     </div>
     <div class="pub-links">
       <a href="https://doi.org/10.1109/JSEN.2023.3310918" target="_blank">DOI</a>
-      <a href="#">Video</a>
+      <a href="https://www.youtube.com/watch?v=SLN2gQ_haYs" target="_blank" rel="noopener">Video</a>
     </div>
   </div>
 </div>
@@ -195,6 +196,9 @@ classes: wide
 
 ## Profiles
 
-- **Google Scholar:** https://scholar.google.com  
-- **GitHub:** https://github.com/sheerazathar  
-- **Website:** https://sheerazathar.github.io
+## Profiles
+
+- **Google Scholar:** [https://scholar.google.com/citations?user=YOUR_ID](https://scholar.google.com/citations?user=YOUR_ID)
+- **GitHub:** [https://github.com/sheerazathar](https://github.com/sheerazathar)
+- **Website:** [https://sheerazathar.github.io](https://sheerazathar.github.io)
+
