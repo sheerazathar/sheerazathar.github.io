@@ -29,134 +29,143 @@ classes: wide
 }
 .pub-body{
   flex:1;
-  min-width: 0;
 }
 .pub-title{
   font-weight: 700;
   font-size: 1.05rem;
   line-height: 1.35;
-  margin-bottom: 4px;
 }
 .pub-authors{
-  margin: 0 0 4px 0;
+  margin: 4px 0;
 }
 .pub-venue{
-  margin: 0 0 10px 0;
-  color: rgba(0,0,0,0.70);
+  margin-bottom: 8px;
+  color: rgba(0,0,0,0.7);
 }
 .pub-links a{
   display:inline-block;
   margin-right: 10px;
-  margin-bottom: 6px;
   padding: 6px 10px;
   border-radius: 999px;
-  border: 1px solid rgba(0,0,0,0.12);
+  border: 1px solid rgba(0,0,0,0.15);
+  font-size: 0.9rem;
   text-decoration: none;
-  font-size: 0.92rem;
 }
 .pub-links a:hover{
-  border-color: rgba(0,0,0,0.25);
-}
-@media (max-width: 700px){
-  .pub-card{ flex-direction: column; }
-  .pub-thumb{ flex: 0 0 auto; }
-  .pub-thumb img{ width: 100%; height: 200px; }
+  border-color: rgba(0,0,0,0.35);
 }
 </style>
 
-## Journal Articles
+## Journal Articles (Under Review)
 
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="/images/publications/vibtac.jpg" alt="VibTac thumbnail" loading="lazy">
+    <img src="/images/publications/fibtac.jpg" alt="FibTac">
   </div>
   <div class="pub-body">
-    <div class="pub-title">VibTac: A High-Bandwidth Multimodal Tactile Sensing Finger for Contact-Rich Manipulation</div>
-    <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
-    <div class="pub-venue"><em>IEEE Transactions on Haptics</em>, 2025</div>
-    <div class="pub-links">
-      <a href="PUT_VIBTAC_PDF_LINK" target="_blank" rel="noopener">PDF</a>
-      <a href="PUT_VIBTAC_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_VIBTAC_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
-      <a href="PUT_VIBTAC_CODE_LINK" target="_blank" rel="noopener">Code</a>
+    <div class="pub-title">
+      FibTac: A Pneumatic-Based Fiber Gripper with Embodied Tactile Sensing
     </div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <div class="pub-thumb">
-    <img src="/images/publications/vistac.jpg" alt="VisTac thumbnail" loading="lazy">
-  </div>
-  <div class="pub-body">
-    <div class="pub-title">VisTac: A Unified Vision-Based Tactile Sensor with Controllable Transparency</div>
-    <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
-    <div class="pub-venue"><em>IEEE Sensors Journal</em>, 2023</div>
-    <div class="pub-links">
-      <a href="PUT_VISTAC_PDF_LINK" target="_blank" rel="noopener">PDF</a>
-      <a href="PUT_VISTAC_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_VISTAC_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
-      <a href="PUT_VISTAC_CODE_LINK" target="_blank" rel="noopener">Code</a>
+    <div class="pub-authors">
+      <strong>Sheeraz Athar</strong>, X. Zhang, M. R. I. Prince, V. G. Duffy, Yu She
     </div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <div class="pub-thumb">
-    <img src="/images/publications/tacscope.jpg" alt="TacScope thumbnail" loading="lazy">
-  </div>
-  <div class="pub-body">
-    <div class="pub-title">TacScope: A Miniaturized Vision-Based Tactile Probe for Subsurface Reconstruction</div>
-    <div class="pub-authors">M. R. I. Prince, <strong>Sheeraz Athar</strong>, Yu She</div>
-    <div class="pub-venue"><em>Advanced Robotics Research</em>, 2025</div>
+    <div class="pub-venue">
+      Under review at <em>Nature Machine Intelligence</em>
+    </div>
     <div class="pub-links">
-      <a href="PUT_TACSCOPE_PDF_LINK" target="_blank" rel="noopener">PDF</a>
-      <a href="PUT_TACSCOPE_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_TACSCOPE_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
-      <a href="PUT_TACSCOPE_CODE_LINK" target="_blank" rel="noopener">Code</a>
+      <a href="#">Preprint</a>
+      <a href="#">Video</a>
     </div>
   </div>
 </div>
 
 ---
 
-## Conference Papers
-
-<!-- Copy/paste this conference card block for each conference paper -->
+## Refereed Journal Articles
 
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="/images/publications/conf-placeholder.jpg" alt="Conference paper thumbnail" loading="lazy">
+    <img src="/images/publications/tacscope.jpg" alt="TacScope">
   </div>
   <div class="pub-body">
-    <div class="pub-title">TITLE OF CONFERENCE PAPER (REPLACE)</div>
-    <div class="pub-authors"><strong>Sheeraz Athar</strong>, Coauthors (REPLACE)</div>
-    <div class="pub-venue"><em>Conference Name (e.g., ICRA/ IROS/ RSS)</em>, YEAR</div>
+    <div class="pub-title">
+      TacScope: A Miniaturized Vision-Based Tactile Sensor for Surgical Applications
+    </div>
+    <div class="pub-authors">
+      M. R. I. Prince, <strong>Sheeraz Athar</strong>, P. Zhou, Yu She
+    </div>
+    <div class="pub-venue">
+      <em>Advanced Robotics Research</em>, Wiley, 2025
+    </div>
     <div class="pub-links">
-      <a href="PUT_CONF_PDF_LINK" target="_blank" rel="noopener">PDF</a>
-      <a href="PUT_CONF_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_CONF_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
-      <a href="PUT_CONF_CODE_LINK" target="_blank" rel="noopener">Code</a>
+      <a href="https://doi.org/10.1002/adrr.202500117" target="_blank">DOI</a>
+      <a href="#">Video</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="/images/publications/vibtac.jpg" alt="VibTac">
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">
+      VibTac: A High-Resolution, High-Bandwidth Tactile Sensing Finger for Multimodal Perception in Robotic Manipulation
+    </div>
+    <div class="pub-authors">
+      <strong>Sheeraz Athar</strong>, X. Zhang, J. Ueda, Y. Zhao, Yu She
+    </div>
+    <div class="pub-venue">
+      <em>IEEE Transactions on Haptics</em>, 2025
+    </div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1109/TOH.2025.3561049" target="_blank">DOI</a>
+      <a href="#">Video</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="/images/publications/vistac.jpg" alt="VisTac">
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">
+      VisTac: Towards a Unified Multimodal Sensing Finger for Robotic Manipulation
+    </div>
+    <div class="pub-authors">
+      <strong>Sheeraz Athar</strong>, G. Patel, Z. Xu, Q. Qiu, Yu She
+    </div>
+    <div class="pub-venue">
+      <em>IEEE Sensors Journal</em>, Vol. 23, No. 20, pp. 25440–25450, 2023
+    </div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1109/JSEN.2023.3310918" target="_blank">DOI</a>
+      <a href="#">Video</a>
     </div>
   </div>
 </div>
 
 ---
 
-## Preprints & Manuscripts Under Review
+## Conference Proceedings
 
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="/images/publications/fibtac.jpg" alt="FibTac thumbnail" loading="lazy">
+    <img src="/images/publications/iros2020.jpg" alt="IROS 2020">
   </div>
   <div class="pub-body">
-    <div class="pub-title">FibTac: A Fiber-Based Multimodal Tactile Gripper for Manipulation, Flow Sensing, and Granular Media Interaction</div>
-    <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
-    <div class="pub-venue">Under review at <em>Nature Machine Intelligence</em></div>
+    <div class="pub-title">
+      Vacuum-Driven Auxetic Switching Structure and Its Application on a Gripper and Quadruped
+    </div>
+    <div class="pub-authors">
+      S. Liu, <strong>Sheeraz Athar</strong>, M. Y. Wang
+    </div>
+    <div class="pub-venue">
+      <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2020
+    </div>
     <div class="pub-links">
-      <a href="PUT_FIBTAC_PREPRINT_LINK" target="_blank" rel="noopener">Preprint</a>
-      <a href="PUT_FIBTAC_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_FIBTAC_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
-      <a href="PUT_FIBTAC_CODE_LINK" target="_blank" rel="noopener">Code</a>
+      <a href="https://doi.org/10.1109/IROS45743.2020.9341338" target="_blank">DOI</a>
     </div>
   </div>
 </div>
@@ -167,41 +176,18 @@ classes: wide
 
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="/images/publications/patent.jpg" alt="Patent thumbnail" loading="lazy">
+    <img src="/images/publications/patent.jpg" alt="Patent">
   </div>
   <div class="pub-body">
-    <div class="pub-title">Fiber-Based Multimodal Tactile Gripper for Robotic Manipulation and Flow Sensing</div>
-    <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
-    <div class="pub-venue">Patent disclosure filed, 2025</div>
-    <div class="pub-links">
-      <a href="PUT_PATENT_LINK_IF_ANY" target="_blank" rel="noopener">Details</a>
+    <div class="pub-title">
+      FibTac: A Pneumatic Fiber-Based Tactile Gripper for Embodied Sensing and Manipulation
     </div>
-  </div>
-</div>
-
----
-
-## Theses
-
-<div class="pub-card">
-  <div class="pub-thumb">
-    <img src="/images/publications/phd.jpg" alt="Dissertation thumbnail" loading="lazy">
-  </div>
-  <div class="pub-body">
-    <div class="pub-title">Embodied Multimodal Tactile Intelligence for Robotic Manipulation</div>
-    <div class="pub-authors"><strong>Sheeraz Athar</strong></div>
-    <div class="pub-venue">Ph.D. Dissertation, Purdue University (in preparation)</div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <div class="pub-thumb">
-    <img src="/images/publications/mphil.jpg" alt="MPhil thesis thumbnail" loading="lazy">
-  </div>
-  <div class="pub-body">
-    <div class="pub-title">Origami-Inspired Soft Actuators for Robotic Applications</div>
-    <div class="pub-authors"><strong>Sheeraz Athar</strong></div>
-    <div class="pub-venue">M.Phil. Thesis, HKUST, 2021</div>
+    <div class="pub-authors">
+      <strong>Sheeraz Athar</strong>, Yu She
+    </div>
+    <div class="pub-venue">
+      Patent in preparation, 2025
+    </div>
   </div>
 </div>
 
@@ -209,7 +195,6 @@ classes: wide
 
 ## Profiles
 
-- Google Scholar: https://scholar.google.com  
-- ORCID: https://orcid.org  
-- GitHub: https://github.com/sheerazathar  
-- Website: https://sheerazathar.github.io
+- **Google Scholar:** https://scholar.google.com  
+- **GitHub:** https://github.com/sheerazathar  
+- **Website:** https://sheerazathar.github.io
