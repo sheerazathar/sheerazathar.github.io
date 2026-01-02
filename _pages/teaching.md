@@ -57,13 +57,13 @@ In IE 574, I supervised multiple semester-long team projects where students deve
 A perception-driven pick-and-place pipeline using RGB-based classification and closed-loop robot execution.
 
 <div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/ykyLM15jI2c"
-    title="Vision-Guided Pick-and-Place System"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
+ <iframe
+  src="https://www.youtube.com/embed/kykLM15jI2c"
+  title="Vision-Guided Pick-and-Place System"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
 
 ### Perception-Driven Industrial Automation Pipeline  
 An end-to-end workflow combining perception, motion planning, and execution on a robotic platform.
