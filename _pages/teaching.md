@@ -63,6 +63,7 @@ A perception-driven pick-and-place pipeline using RGB-based classification and c
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+</div>
 
 
 ### Perception-Driven Industrial Automation Pipeline  
