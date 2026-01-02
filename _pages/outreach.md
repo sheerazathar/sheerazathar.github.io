@@ -127,6 +127,27 @@ Program link: <span class="small-link"><https://www.purdue.edu/engineering/Initi
   </div>
 </div>
 
+### [June 2024] MITE Summer Program
+
+During the 2024 offering of Purdue’s **MITE (Multiethnic Introduction to Engineering)** program, I supported pre-college students through interactive robotics demonstrations, lab tours, and informal mentoring. My role emphasized helping students relate core STEM concepts to real robotic systems, fostering curiosity, confidence, and early identification with engineering pathways.  
+Program link: <span class="small-link"><https://www.purdue.edu/engineering/MEP/></span>
+
+<div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="/images/mite24/13.jpg" alt="MITE Summer Program 2024 robotics demo" loading="lazy">
+    <div class="gallery-cap">Robotics demonstrations for MITE students</div>
+  </div>
+  <div class="gallery-item">
+    <img src="/images/mite24/14.jpg" alt="MITE Summer Program 2024 lab tour" loading="lazy">
+    <div class="gallery-cap">Hands-on lab tour and system walkthrough</div>
+  </div>
+  <div class="gallery-item">
+    <img src="/images/mite24/15.jpg" alt="MITE Summer Program 2024 mentoring" loading="lazy">
+    <div class="gallery-cap">Mentoring and discussion on engineering pathways</div>
+  </div>
+</div>
+
+
 ### [Sep 2025] Purdue FIRST Robotics
 
 I have supported outreach through FIRST Robotics, introducing students to robotics demonstrations and emphasizing how mechanical design, sensing, and programming work together in real systems.  
