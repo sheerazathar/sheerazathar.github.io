@@ -94,7 +94,7 @@ Program link: <span class="small-link"><https://www.purdue.edu/engineering/Initi
 
 <div class="gallery-grid">
   <div class="gallery-item">
-    <img src="/images/outreach/preface/31.jpg" alt="PREFACE Summer Program 2025" loading="lazy">
+    <img src="/images/outreach/preface/31.gif" alt="PREFACE Summer Program 2025" loading="lazy">
     <div class="gallery-cap">Introduction to robotics and lab demos</div>
   </div>
   <div class="gallery-item">
