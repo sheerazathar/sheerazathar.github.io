@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sheeraz Athar"
 title_separator          : "-"
 name                     : &name "Sheeraz Athar"
-description              : &description "Research Engineer at The Hong Kong University of Science and Technology"
+description              : &description "PhD Candidate at Purdue University, IN, USA"
 url                      : https://sheerazathar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sheerazathar.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Sheeraz Athar"
   avatar           : "DSC_0037.jpg"
-  bio              : "Research Engineer at, <a style='color: black;' href='https://hkust.edu.hk/home'>HKUST</a> <a style='color: black;' href='https://ri.ust.hk/home'>Robotics Institute</a>"
-  location         : "Hong Kong"
+  bio              : "PhD Candidate at, <a style='color: black;' href='https://www.purdue.edu/'>Purdue University"
+  location         : "United States"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=tYORPw8AAAAJ&hl=en"
