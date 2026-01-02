@@ -14,6 +14,14 @@ Prior to Purdue, I completed my M.Phil. at the [Hong Kong University of Science 
 
 I am currently applying for **faculty and postdoctoral positions** in robotics, mechanical engineering, and industrial/engineering systems, with a long-term goal of building research programs that integrate sensing, mechanics, and learning for intelligent robotic interaction.
 
+## News
+
+**[Sep 2025]**  
+Our work on multimodal tactile sensing was featured in  
+*Purdue College of Engineering News*.  
+👉 [Read the article](LINK_HERE)
+
+
 ## My work and research
 
 I use engineering, mathematical, and computational tools to design and study **soft, compliant, and bio-inspired robotic systems**, with a particular emphasis on multimodal sensing and physical interaction. My research is inherently interdisciplinary and intersects robotics, biomechanics, materials and manufacturing, and learning-enabled perception.
