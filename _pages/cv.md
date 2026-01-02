@@ -86,6 +86,9 @@ Advisor: Prof. M. Muzammil
 - Design & Manufacturing  
   SolidWorks, system-level CAD, semester-long design projects
 
+See detailed teaching activities and student projects here:  
+👉 [/teaching/](/teaching/)
+
 ---
 
 ## Mentorship
