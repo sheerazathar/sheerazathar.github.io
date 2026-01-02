@@ -85,7 +85,7 @@ classes: wide
 
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="/images/publications/tacscope.jpg" alt="TacScope">
+    <img src="/images/ts.png" alt="TacScope">
   </div>
   <div class="pub-body">
     <div class="pub-title">
@@ -107,7 +107,7 @@ classes: wide
 
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="/images/publications/vibtac.jpg" alt="VibTac">
+    <img src="/images/vibt.png" alt="VibTac">
   </div>
   <div class="pub-body">
     <div class="pub-title">
