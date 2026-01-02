@@ -74,7 +74,7 @@ Program link: <span class="small-link"><https://www.purdue.edu/engineering/MEP/>
 
 <div class="gallery-grid">
   <div class="gallery-item">
-    <img src="/images/outreach/mite/21.jpg" alt="MITE Summer Program activity" loading="lazy">
+    <img src="/images/outreach/mite/21.gif" alt="MITE Summer Program activity" loading="lazy">
     <div class="gallery-cap">Interactive robotics demonstration</div>
   </div>
   <div class="gallery-item">
