@@ -98,7 +98,7 @@ Program link: <span class="small-link"><https://www.purdue.edu/engineering/Initi
     <div class="gallery-cap">Introduction to robotics and lab demos</div>
   </div>
   <div class="gallery-item">
-    <img src="/images/outreach/preface/7.jpg" alt="PREFACE activity" loading="lazy">
+    <img src="/images/outreach/preface/9.jpg" alt="PREFACE activity" loading="lazy">
     <div class="gallery-cap">Mentoring and student engagement</div>
   </div>
   <div class="gallery-item">
