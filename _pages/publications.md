@@ -75,10 +75,10 @@ classes: wide
     <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
     <div class="pub-venue"><em>IEEE Transactions on Haptics</em>, 2025</div>
     <div class="pub-links">
-      <a href="PUT_PDF_LINK_HERE" target="_blank" rel="noopener">PDF</a>
-      <a href="PUT_PROJECT_PAGE_LINK_HERE" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_VIDEO_LINK_HERE" target="_blank" rel="noopener">Video</a>
-      <a href="PUT_CODE_LINK_HERE" target="_blank" rel="noopener">Code</a>
+      <a href="PUT_VIBTAC_PDF_LINK" target="_blank" rel="noopener">PDF</a>
+      <a href="PUT_VIBTAC_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
+      <a href="PUT_VIBTAC_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
+      <a href="PUT_VIBTAC_CODE_LINK" target="_blank" rel="noopener">Code</a>
     </div>
   </div>
 </div>
@@ -92,9 +92,10 @@ classes: wide
     <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
     <div class="pub-venue"><em>IEEE Sensors Journal</em>, 2023</div>
     <div class="pub-links">
-      <a href="PUT_PDF_LINK_HERE" target="_blank" rel="noopener">PDF</a>
-      <a href="PUT_PROJECT_PAGE_LINK_HERE" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_VIDEO_LINK_HERE" target="_blank" rel="noopener">Video</a>
+      <a href="PUT_VISTAC_PDF_LINK" target="_blank" rel="noopener">PDF</a>
+      <a href="PUT_VISTAC_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
+      <a href="PUT_VISTAC_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
+      <a href="PUT_VISTAC_CODE_LINK" target="_blank" rel="noopener">Code</a>
     </div>
   </div>
 </div>
@@ -108,13 +109,40 @@ classes: wide
     <div class="pub-authors">M. R. I. Prince, <strong>Sheeraz Athar</strong>, Yu She</div>
     <div class="pub-venue"><em>Advanced Robotics Research</em>, 2025</div>
     <div class="pub-links">
-      <a href="PUT_PDF_LINK_HERE" target="_blank" rel="noopener">PDF</a>
-      <a href="PUT_PROJECT_PAGE_LINK_HERE" target="_blank" rel="noopener">Website</a>
+      <a href="PUT_TACSCOPE_PDF_LINK" target="_blank" rel="noopener">PDF</a>
+      <a href="PUT_TACSCOPE_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
+      <a href="PUT_TACSCOPE_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
+      <a href="PUT_TACSCOPE_CODE_LINK" target="_blank" rel="noopener">Code</a>
     </div>
   </div>
 </div>
 
-## Manuscripts Under Review / Preprints
+---
+
+## Conference Papers
+
+<!-- Copy/paste this conference card block for each conference paper -->
+
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="/images/publications/conf-placeholder.jpg" alt="Conference paper thumbnail" loading="lazy">
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">TITLE OF CONFERENCE PAPER (REPLACE)</div>
+    <div class="pub-authors"><strong>Sheeraz Athar</strong>, Coauthors (REPLACE)</div>
+    <div class="pub-venue"><em>Conference Name (e.g., ICRA/ IROS/ RSS)</em>, YEAR</div>
+    <div class="pub-links">
+      <a href="PUT_CONF_PDF_LINK" target="_blank" rel="noopener">PDF</a>
+      <a href="PUT_CONF_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
+      <a href="PUT_CONF_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
+      <a href="PUT_CONF_CODE_LINK" target="_blank" rel="noopener">Code</a>
+    </div>
+  </div>
+</div>
+
+---
+
+## Preprints & Manuscripts Under Review
 
 <div class="pub-card">
   <div class="pub-thumb">
@@ -125,15 +153,63 @@ classes: wide
     <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
     <div class="pub-venue">Under review at <em>Nature Machine Intelligence</em></div>
     <div class="pub-links">
-      <a href="PUT_PREPRINT_LINK_HERE" target="_blank" rel="noopener">Preprint</a>
-      <a href="PUT_PROJECT_PAGE_LINK_HERE" target="_blank" rel="noopener">Website</a>
-      <a href="PUT_VIDEO_LINK_HERE" target="_blank" rel="noopener">Video</a>
+      <a href="PUT_FIBTAC_PREPRINT_LINK" target="_blank" rel="noopener">Preprint</a>
+      <a href="PUT_FIBTAC_PROJECT_LINK" target="_blank" rel="noopener">Website</a>
+      <a href="PUT_FIBTAC_VIDEO_LINK" target="_blank" rel="noopener">Video</a>
+      <a href="PUT_FIBTAC_CODE_LINK" target="_blank" rel="noopener">Code</a>
     </div>
   </div>
 </div>
+
+---
+
+## Patents
+
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="/images/publications/patent.jpg" alt="Patent thumbnail" loading="lazy">
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">Fiber-Based Multimodal Tactile Gripper for Robotic Manipulation and Flow Sensing</div>
+    <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
+    <div class="pub-venue">Patent disclosure filed, 2025</div>
+    <div class="pub-links">
+      <a href="PUT_PATENT_LINK_IF_ANY" target="_blank" rel="noopener">Details</a>
+    </div>
+  </div>
+</div>
+
+---
+
+## Theses
+
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="/images/publications/phd.jpg" alt="Dissertation thumbnail" loading="lazy">
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">Embodied Multimodal Tactile Intelligence for Robotic Manipulation</div>
+    <div class="pub-authors"><strong>Sheeraz Athar</strong></div>
+    <div class="pub-venue">Ph.D. Dissertation, Purdue University (in preparation)</div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="/images/publications/mphil.jpg" alt="MPhil thesis thumbnail" loading="lazy">
+  </div>
+  <div class="pub-body">
+    <div class="pub-title">Origami-Inspired Soft Actuators for Robotic Applications</div>
+    <div class="pub-authors"><strong>Sheeraz Athar</strong></div>
+    <div class="pub-venue">M.Phil. Thesis, HKUST, 2021</div>
+  </div>
+</div>
+
+---
 
 ## Profiles
 
 - Google Scholar: https://scholar.google.com  
 - ORCID: https://orcid.org  
-- GitHub: https://github.com/sheerazathar
+- GitHub: https://github.com/sheerazathar  
+- Website: https://sheerazathar.github.io
