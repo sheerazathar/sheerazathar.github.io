@@ -16,10 +16,13 @@ I am currently applying for **faculty and postdoctoral positions** in robotics, 
 
 ## News
 
-**[Sep 2025]**  
+**[April 2025]**  
+I succesfully passed my PhD Preliminary Examination!  
+
+**[June 2024]**  
 Our work on multimodal tactile sensing was featured in  
-*Purdue College of Engineering News*.  
-👉 [Read the article](LINK_HERE)
+*Purdue University College of Agriculture News*.  
+👉 [Read the article](https://ag.purdue.edu/news/2024/06/how-robots-touch-on-the-future-of-agriculture.html?image=)
 
 
 ## My work and research
