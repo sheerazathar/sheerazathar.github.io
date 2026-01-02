@@ -54,7 +54,7 @@ Program link: <span class="small-link"><https://www.purdue.edu/engineering/MEP/>
 
 <div class="gallery-grid">
   <div class="gallery-item">
-    <img src="/images/bss/10.jpg" alt="Blue Sky Summer Scholars Program lab tour" loading="lazy">
+    <img src="/images/outreach/bss/10.jpg" alt="Blue Sky Summer Scholars Program lab tour" loading="lazy">
     <div class="gallery-cap">Lab tour and robotics demonstrations</div>
   </div>
   <div class="gallery-item">
