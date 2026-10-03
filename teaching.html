@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Teaching — Sheeraz Athar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.teach-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem;margin-bottom:1.5rem}
+.teach-card{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.3rem}
+.teach-role{font-size:.75rem;font-weight:600;color:var(--ink)}
+.teach-course{font-size:.7rem;font-weight:500;color:var(--accent)}
+.teach-inst{font-size:.67rem;color:var(--ink-3)}
+.teach-desc{font-size:.67rem;color:var(--ink-2);line-height:1.6;margin-top:.15rem}
+.eval-table{width:100%;border-collapse:collapse;font-size:.72rem;margin-top:.75rem}
+.eval-table th{text-align:left;font-weight:600;color:var(--ink-3);font-size:.63rem;letter-spacing:.04em;text-transform:uppercase;padding:.4rem .6rem;border-bottom:2px solid var(--rule)}
+.eval-table td{padding:.45rem .6rem;border-bottom:1px solid var(--rule);color:var(--ink-2)}
+.eval-table td:last-child{font-weight:600;color:var(--accent);text-align:right}
+.eval-table tr:last-child td{border-bottom:none}
+.video-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:.75rem}
+.video-wrap{border-radius:8px;overflow:hidden;border:1px solid var(--rule);background:#111}
+.video-wrap .v-label{font-size:.67rem;font-weight:500;color:var(--ink-2);padding:.4rem .6rem;background:var(--surface);border-top:1px solid var(--rule)}
+.video-wrap iframe{width:100%;aspect-ratio:16/9;border:none;display:block}
+.prose{font-size:.8rem;color:var(--ink-2);line-height:1.75;max-width:68ch}
+.prose p+p{margin-top:.65rem}
+.prose a{color:var(--accent);text-decoration:none}
+.prose strong{color:var(--ink);font-weight:600}
+.course-list{display:flex;flex-wrap:wrap;gap:.38rem;margin-top:.6rem}
+.course-tag{font-size:.67rem;padding:.2rem .55rem;background:var(--accent-lt);color:var(--accent);border-radius:4px;font-weight:500}
+@media(max-width:680px){.teach-grid{grid-template-columns:1fr}.video-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="page">
+<aside class="sidebar">
+  <img class="sidebar-photo" src="images/3.JPG" alt="Sheeraz Athar">
+  <div class="sidebar-info">
+    <div class="sidebar-name">Sheeraz Athar</div>
+    <div class="sidebar-role">Postdoctoral Researcher<br><a href="https://ame.nd.edu/faculty/nikolaus-correll/" target="_blank">PAIR Initiative</a> · <a href="https://www.nd.edu/" target="_blank">University of Notre Dame</a><br><span style="color:var(--ink-3);font-size:.66rem;">w/ Prof. Nikolaus Correll</span></div>
+    <div class="sidebar-status" style="margin-top:.4rem;">Postdoc · Notre Dame PAIR</div>
+  </div>
+  <nav class="sidebar-nav">
+    <a href="index.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html" class="active">Teaching</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="files/cv.pdf" target="_blank">CV ↗</a>
+  </nav>
+  <div class="sidebar-links">
+    <a class="sidebar-link" href="https://scholar.google.com/citations?user=tYORPw8AAAAJ&hl=en" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 10a8 8 0 017.162 3.44L24 9.5 12 0z"/></svg>Google Scholar</a>
+    <a class="sidebar-link" href="https://github.com/SheerazAthar" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a>
+    <a class="sidebar-link" href="files/cv.pdf" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Curriculum Vitae</a>
+  </div>
+</aside>
+
+<main class="main">
+
+  <section class="sect">
+    <h2 class="sect-title">Teaching Philosophy</h2>
+    <div class="prose">
+      <p>My teaching philosophy is grounded in the belief that students learn engineering most effectively when they <strong>build, test, question, and iterate</strong>. Robotics and intelligent systems are inherently hands-on disciplines — students gain true understanding when they see algorithms controlling real hardware, observe sensors responding to the environment, and diagnose how design choices influence system performance.</p>
+      <p>I strive to create learning environments that are supportive, practice-oriented, and inclusive — where students feel confident experimenting, asking questions, and learning through iteration. I aim to help students connect foundational theory to the messy realities of real-world engineering, while building the communication and engineering judgment required for research and industry.</p>
+    </div>
+  </section>
+
+  <section class="sect">
+    <h2 class="sect-title">Teaching Experience</h2>
+    <div class="teach-grid">
+      <div class="teach-card">
+        <div class="teach-role">Teaching Assistant</div>
+        <div class="teach-course">IE 574 — Industrial Robotics and Flexible Assembly</div>
+        <div class="teach-inst">Purdue University · 2022–2026</div>
+        <div class="teach-desc">Led laboratory modules in CoppeliaSim, TMFlow, and Python-based perception. Mentored semester-long team projects requiring full sensing–control–execution integration.</div>
+      </div>
+      <div class="teach-card">
+        <div class="teach-role">Teaching Assistant</div>
+        <div class="teach-course">IE 370 — Manufacturing Processes</div>
+        <div class="teach-inst">Purdue University · 2022–2023</div>
+        <div class="teach-desc">Instructional support and labs on manufacturing workflows, process planning, and automation — connecting materials, processes, and production constraints to engineering decisions.</div>
+      </div>
+      <div class="teach-card">
+        <div class="teach-role">Teaching Assistant</div>
+        <div class="teach-course">IE 472 — Imagine, Model, and Make</div>
+        <div class="teach-inst">Purdue University · Design Studio</div>
+        <div class="teach-desc">Supported student teams in CAD-based design iteration, prototyping, and fabrication, emphasizing turning conceptual designs into tested physical systems.</div>
+      </div>
+      <div class="teach-card">
+        <div class="teach-role">Instructor — SolidWorks & Prototyping</div>
+        <div class="teach-course">Robotics Design Projects</div>
+        <div class="teach-inst">HKUST · Cheng Kar-Shun Robotics Institute · 2019–2022</div>
+        <div class="teach-desc">Taught SolidWorks modeling and mentored teams through iterative design, material selection, rapid prototyping, and fabrication.</div>
+      </div>
+      <div class="teach-card">
+        <div class="teach-role">Research Mentor</div>
+        <div class="teach-course">Undergraduate & Graduate Mentorship</div>
+        <div class="teach-inst">Purdue MARS Lab · 2022–2026</div>
+        <div class="teach-desc">Mentored researchers on tactile sensing, robot experiments, perception pipelines, and scientific writing. Several mentees published at top robotics venues.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect">
+    <h2 class="sect-title">Student Project Videos (IE 574)</h2>
+    <p style="font-size:.75rem;color:var(--ink-3);margin-bottom:.85rem;">Students developed complete perception–manipulation systems, integrating sensing, control, and decision-making into robust robotic workflows.</p>
+    <div class="video-grid">
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/kykLM15jI2c" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="v-label">Vision-Guided Pick-and-Place System</div>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/50iPeQtT_cU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="v-label">Perception-Driven Industrial Automation Pipeline</div>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/CxGIOAHu7X8" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="v-label">Mobile Manipulation with Vision Integration</div>
+      </div>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/mWwxsxhngB8" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="v-label">Feedback-Driven Robotic Assembly Task</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect">
+    <h2 class="sect-title">Teaching Evaluations (IE 574)</h2>
+    <table class="eval-table">
+      <tr><th>Criterion</th><th>Rating</th></tr>
+      <tr><td>Clarity of explanations</td><td>4.55 / 5</td></tr>
+      <tr><td>Effectiveness in answering questions</td><td>4.50 / 5</td></tr>
+      <tr><td>Availability and willingness to help</td><td>4.58 / 5</td></tr>
+      <tr><td>Fostering an inclusive learning environment</td><td>4.50 / 5</td></tr>
+    </table>
+  </section>
+
+  <section class="sect">
+    <h2 class="sect-title">Courses I Am Prepared to Teach</h2>
+    <div class="course-list">
+      <span class="course-tag">Robotics & Robot Programming</span>
+      <span class="course-tag">Mechatronics</span>
+      <span class="course-tag">Dynamics & System Modeling</span>
+      <span class="course-tag">Control Systems</span>
+      <span class="course-tag">Manufacturing Automation</span>
+      <span class="course-tag">Embedded Sensing & Perception</span>
+      <span class="course-tag">Human–Robot Interaction</span>
+      <span class="course-tag">Multimodal Sensing & Embodied Intelligence</span>
+      <span class="course-tag">Tactile Sensing for Robotic Manipulation</span>
+    </div>
+  </section>
+
+</main>
+</div>
+<footer>© 2026 Sheeraz Athar · <a href="mailto:athar@nd.edu">athar@nd.edu</a> · University of Notre Dame</footer>
+</body>
+</html>
