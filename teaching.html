@@ -1,147 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Teaching — Sheeraz Athar</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<style>
-.prose{font-size:.82rem;color:var(--ink2);line-height:1.8;max-width:66ch}
-.prose p+p{margin-top:.7rem}
-.prose strong{color:var(--ink);font-weight:600}
-.teach-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:1.5rem}
-.teach-card{background:var(--white);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.1rem}
-.tc-role{font-size:.75rem;font-weight:600;color:var(--ink);margin-bottom:.1rem}
-.tc-course{font-size:.7rem;font-weight:500;color:var(--accent);margin-bottom:.15rem}
-.tc-inst{font-size:.67rem;color:var(--ink3);margin-bottom:.35rem}
-.tc-desc{font-size:.68rem;color:var(--ink2);line-height:1.65}
-.eval-table{width:100%;border-collapse:collapse;font-size:.75rem;margin-top:.6rem}
-.eval-table th{text-align:left;font-size:.63rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);padding:.4rem .6rem;border-bottom:2px solid var(--rule)}
-.eval-table td{padding:.45rem .6rem;border-bottom:1px solid var(--rule);color:var(--ink2)}
-.eval-table td:last-child{font-weight:600;color:var(--accent);text-align:right}
-.eval-table tr:last-child td{border-bottom:none}
-.video-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem;margin-top:.75rem}
-.video-card{background:var(--white);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
-.video-card iframe{width:100%;aspect-ratio:16/9;border:none;display:block}
-.video-card .vc-label{font-size:.68rem;font-weight:500;color:var(--ink2);padding:.45rem .6rem;border-top:1px solid var(--rule);background:var(--bg)}
-.tag-row{display:flex;flex-wrap:wrap;gap:.38rem;margin-top:.6rem}
-.course-tag{font-size:.68rem;font-weight:500;padding:.22rem .6rem;background:var(--accent-lt);color:var(--accent);border-radius:5px}
-@media(max-width:680px){.teach-grid,.video-grid{grid-template-columns:1fr}}
-</style>
-</head>
-<body>
-<nav>
-  <div class="nav-inner">
-    <span class="nav-name">Sheeraz Athar</span>
-    <ul class="nav-links">
-      <li><a href="index.html">About</a></li><li><a href="research.html">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="teaching.html" class="active">Teaching</a></li>
-      <li><a href="outreach.html">Outreach</a></li>
-      <li><a href="files/cv.pdf" target="_blank">CV ↗</a></li>
-    </ul>
-  </div>
-</nav>
-<div class="container">
+<link rel="icon" href="images/3.JPG">
+<title>Teaching — Sheeraz Athar</title></head><body>
+<header class="nav"><div class="wrap">
+  <a class="nav-name" href="index.html">Sheeraz Athar</a>
+  <ul class="nav-links">
+    <li><a href="index.html">About</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="teaching.html" class="active">Teaching</a></li>
+    <li><a href="outreach.html">Outreach</a></li>
+    <li><a href="files/cv.pdf" target="_blank">CV</a></li>
+  </ul>
+</div></header>
+<main class="wrap">
 
-<div class="section">
-  <div class="section-label">Teaching Philosophy</div>
+<section class="section" style="border-top:none">
+  <div class="section-head"><h2>Teaching Philosophy</h2></div>
   <div class="prose">
-    <p>My teaching philosophy is grounded in the belief that students learn engineering most effectively when they <strong>build, test, question, and iterate</strong>. Robotics is inherently hands-on — students gain true understanding when they see algorithms controlling real hardware, observe sensors responding to the environment, and diagnose how design choices shape system behavior.</p>
-    <p>I aim to help students connect foundational theory to the messy realities of real-world engineering, while building the engineering judgment and communication skills required for research and industry. I'm especially committed to creating environments where students from all backgrounds feel confident experimenting and asking questions.</p>
+    <p>Students learn engineering most effectively when they <strong>build, test, question, and iterate</strong>. Robotics is inherently hands-on — real understanding comes from watching algorithms drive real hardware, seeing sensors respond to the world, and diagnosing how design choices shape system behavior.</p>
+    <p>My goal is to connect foundational theory to the messy realities of engineering practice — noise, calibration drift, timing, tolerances, failure modes — while building the judgment and communication skills students need for research and industry. I work to create environments where students from every background feel confident experimenting and asking questions.</p>
   </div>
-</div>
+</section>
 
-<div class="section">
-  <div class="section-label">Teaching Experience</div>
-  <div class="teach-grid">
-    <div class="teach-card">
-      <div class="tc-role">Teaching Assistant</div>
-      <div class="tc-course">IE 574 — Industrial Robotics & Flexible Assembly</div>
-      <div class="tc-inst">Purdue University · 2022–2026</div>
-      <div class="tc-desc">Led labs in CoppeliaSim, TMFlow, and Python-based perception. Mentored semester-long team projects requiring full sensing–control–execution integration.</div>
-    </div>
-    <div class="teach-card">
-      <div class="tc-role">Teaching Assistant</div>
-      <div class="tc-course">IE 370 — Manufacturing Processes</div>
-      <div class="tc-inst">Purdue University · 2022–2023</div>
-      <div class="tc-desc">Instructional support and labs connecting manufacturing workflows, process planning, and automation concepts to engineering decision-making.</div>
-    </div>
-    <div class="teach-card">
-      <div class="tc-role">Teaching Assistant</div>
-      <div class="tc-course">IE 472 — Imagine, Model, and Make</div>
-      <div class="tc-inst">Purdue University · Design Studio</div>
-      <div class="tc-desc">Supported CAD-based design iteration, prototyping, and fabrication — turning conceptual designs into tested physical systems.</div>
-    </div>
-    <div class="teach-card">
-      <div class="tc-role">Instructor — SolidWorks & Prototyping</div>
-      <div class="tc-course">Robotics Design Projects</div>
-      <div class="tc-inst">HKUST · Cheng Kar-Shun Robotics Institute · 2019–2022</div>
-      <div class="tc-desc">Taught SolidWorks modeling and mentored teams through iterative design, material selection, and rapid prototyping.</div>
-    </div>
-    <div class="teach-card">
-      <div class="tc-role">Research Mentor</div>
-      <div class="tc-course">Undergraduate & Graduate Mentorship</div>
-      <div class="tc-inst">Purdue MARS Lab · 2022–2026</div>
-      <div class="tc-desc">Mentored researchers on tactile sensing, robot experiments, perception pipelines, and scientific writing. Several mentees published at top robotics venues.</div>
-    </div>
+<section class="section">
+  <div class="section-head"><h2>Teaching Experience</h2></div>
+  <div class="grid2">
+    <div class="card"><h4>Teaching Assistant</h4><div class="sub">IE 574 — Industrial Robotics &amp; Flexible Assembly</div><div class="meta">Purdue University · 2022–2026</div><p>Led laboratory modules in CoppeliaSim, TMFlow robot programming, and Python-based perception. Mentored semester-long team projects requiring full sensing–control–execution integration on physical robots.</p></div>
+    <div class="card"><h4>Teaching Assistant</h4><div class="sub">IE 370 — Manufacturing Processes</div><div class="meta">Purdue University</div><p>Instructional support and labs on manufacturing workflows, process planning, and automation — connecting materials, processes, and production constraints to engineering decisions.</p></div>
+    <div class="card"><h4>Teaching Assistant</h4><div class="sub">IE 472 — Imagine, Model, and Make</div><div class="meta">Purdue University · Design Studio</div><p>Supported student teams through CAD-based design iteration, prototyping, and fabrication — turning conceptual designs into tested physical systems.</p></div>
+    <div class="card"><h4>Instructor — SolidWorks &amp; Prototyping</h4><div class="sub">Robotics Design Projects</div><div class="meta">HKUST · 2019–2022</div><p>Taught SolidWorks modeling and mentored teams through iterative design, material selection, rapid prototyping, and fabrication.</p></div>
+    <div class="card"><h4>Research Mentor</h4><div class="sub">Undergraduate &amp; Graduate Researchers</div><div class="meta">Purdue MARS Lab · 2022–2026</div><p>Mentored students on tactile sensor fabrication, robot experiments, perception pipelines, and scientific writing — several went on to publish at top robotics venues.</p></div>
   </div>
-</div>
+</section>
 
-<div class="section">
-  <div class="section-label">Student Project Videos — IE 574</div>
-  <p style="font-size:.75rem;color:var(--ink3);margin-bottom:.1rem">Students built complete perception–manipulation systems, integrating sensing, control, and decision-making into full robotic workflows.</p>
+<section class="section">
+  <div class="section-head"><h2>Student Projects — IE 574</h2></div>
+  <p class="note" style="margin-bottom:.9rem">Teams built complete perception–manipulation systems integrating sensing, control, and decision-making.</p>
   <div class="video-grid">
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/kykLM15jI2c" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div class="vc-label">Vision-Guided Pick-and-Place System</div>
-    </div>
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/50iPeQtT_cU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div class="vc-label">Perception-Driven Industrial Automation</div>
-    </div>
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/CxGIOAHu7X8" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div class="vc-label">Mobile Manipulation with Vision Integration</div>
-    </div>
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/mWwxsxhngB8" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div class="vc-label">Feedback-Driven Robotic Assembly Task</div>
-    </div>
+    <div class="video-card"><iframe src="https://www.youtube.com/embed/kykLM15jI2c" loading="lazy" allowfullscreen></iframe><div class="cap">Vision-guided pick-and-place</div></div>
+    <div class="video-card"><iframe src="https://www.youtube.com/embed/50iPeQtT_cU" loading="lazy" allowfullscreen></iframe><div class="cap">Perception-driven industrial automation</div></div>
+    <div class="video-card"><iframe src="https://www.youtube.com/embed/CxGIOAHu7X8" loading="lazy" allowfullscreen></iframe><div class="cap">Mobile manipulation with vision integration</div></div>
+    <div class="video-card"><iframe src="https://www.youtube.com/embed/mWwxsxhngB8" loading="lazy" allowfullscreen></iframe><div class="cap">Feedback-driven robotic assembly</div></div>
   </div>
-</div>
+</section>
 
-<div class="section">
-  <div class="section-label">Teaching Evaluations — IE 574</div>
-  <table class="eval-table">
+<section class="section">
+  <div class="section-head"><h2>Teaching Evaluations — IE 574</h2></div>
+  <table class="eval">
     <tr><th>Criterion</th><th>Rating</th></tr>
     <tr><td>Clarity of explanations</td><td>4.55 / 5</td></tr>
     <tr><td>Effectiveness in answering questions</td><td>4.50 / 5</td></tr>
     <tr><td>Availability and willingness to help</td><td>4.58 / 5</td></tr>
     <tr><td>Fostering an inclusive learning environment</td><td>4.50 / 5</td></tr>
   </table>
-</div>
+</section>
 
-<div class="section">
-  <div class="section-label">Courses I Am Prepared to Teach</div>
-  <div class="tag-row">
-    <span class="course-tag">Robotics & Robot Programming</span>
-    <span class="course-tag">Mechatronics</span>
-    <span class="course-tag">Dynamics & System Modeling</span>
-    <span class="course-tag">Control Systems</span>
-    <span class="course-tag">Manufacturing Automation</span>
-    <span class="course-tag">Embedded Sensing & Perception</span>
-    <span class="course-tag">Human–Robot Interaction</span>
-    <span class="course-tag">Multimodal Sensing & Embodied Intelligence</span>
-    <span class="course-tag">Tactile Sensing for Robotic Manipulation</span>
+<section class="section">
+  <div class="section-head"><h2>Courses I Am Prepared to Teach</h2></div>
+  <div class="tags">
+    <span class="tag">Robotics &amp; Robot Programming</span><span class="tag">Mechatronics</span><span class="tag">Dynamics &amp; System Modeling</span><span class="tag">Control Systems</span><span class="tag">Manufacturing Automation</span><span class="tag">Embedded Sensing &amp; Perception</span><span class="tag">Human–Robot Interaction</span><span class="tag">Multimodal Sensing &amp; Embodied Intelligence</span><span class="tag">Tactile Sensing for Manipulation</span>
   </div>
-</div>
+</section>
 
-</div>
-<footer class="container">
+</main>
+<footer><div class="wrap">
   <span>© 2026 Sheeraz Athar · <a href="mailto:athar@nd.edu">athar@nd.edu</a></span>
   <span>University of Notre Dame</span>
-</footer>
-</body>
-</html>
+</div></footer>
+<script>
+// click-to-play: swaps a thumbnail for the YouTube embed
+document.querySelectorAll('.thumb.video').forEach(t=>{
+  t.addEventListener('click',()=>{
+    const id=t.dataset.yt, start=t.dataset.start||0;
+    t.innerHTML='<iframe src="https://www.youtube.com/embed/'+id+'?autoplay=1&start='+start+'&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    t.classList.add('playing');
+  });
+});
+// news show/hide
+const nt=document.querySelector('.news-toggle');
+if(nt){nt.addEventListener('click',()=>{const n=document.querySelector('.news');n.classList.toggle('open');nt.textContent=n.classList.contains('open')?'Show less':'Show older news';});}
+</script>
+</body></html>

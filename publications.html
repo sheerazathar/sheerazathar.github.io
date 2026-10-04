@@ -1,275 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Publications — Sheeraz Athar</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<style>
-.pub-section-label {
-  font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--ink3);padding:.5rem .75rem;background:#f4f4f5;border-radius:5px;
-  margin:2rem 0 1rem;display:inline-block;
-}
-.pub-section-label:first-child { margin-top:0; }
+<link rel="icon" href="images/3.JPG">
+<title>Publications — Sheeraz Athar</title></head><body>
+<header class="nav"><div class="wrap">
+  <a class="nav-name" href="index.html">Sheeraz Athar</a>
+  <ul class="nav-links">
+    <li><a href="index.html">About</a></li>
+    <li><a href="publications.html" class="active">Publications</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="outreach.html">Outreach</a></li>
+    <li><a href="files/cv.pdf" target="_blank">CV</a></li>
+  </ul>
+</div></header>
+<main class="wrap">
+<section class="section" style="border-top:none">
+  <div class="section-head"><h2>Publications</h2><span class="note"><a href="https://scholar.google.com/citations?user=tYORPw8AAAAJ&hl=en" target="_blank">Google Scholar</a> · <a href="https://orcid.org/0000-0001-8749-7221" target="_blank">ORCID</a> · * equal contribution</span></div>
 
-.pub-item {
-  display:grid;grid-template-columns:80px 1fr;gap:0 1rem;
-  padding:1rem 0;border-bottom:1px solid var(--rule);align-items:start;
-}
-.pub-item:last-child { border-bottom:none; }
+  <div class="pub-group">Conference papers · IROS 2026</div>
 
-.pub-thumb {
-  width:80px;height:80px;border-radius:6px;object-fit:cover;
-  border:1px solid var(--rule);flex-shrink:0;display:block;
-}
-.pub-thumb-ph {
-  width:80px;height:80px;border-radius:6px;border:1px solid var(--rule);
-  background:linear-gradient(135deg,var(--accent-lt),#dbeafe);
-  display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0;
-}
-
-.pub-title { font-size:.82rem;font-weight:600;color:var(--ink);line-height:1.4;margin-bottom:.2rem; }
-.pub-authors { font-size:.72rem;color:var(--ink3);margin-bottom:.2rem;line-height:1.5; }
-.pub-authors strong { color:var(--ink2);font-weight:600; }
-.pub-venue { font-size:.7rem;font-style:italic;color:var(--ink2);margin-bottom:.35rem; }
-.pub-badges { display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.4rem; }
-.pb { font-size:.6rem;font-weight:500;padding:.1rem .4rem;border-radius:3px;background:#f4f4f5;color:#52525b; }
-.pb.gold { background:var(--gold-lt);color:var(--gold); }
-.pb.purple { background:var(--purple-lt);color:var(--purple); }
-.pb.blue { background:var(--accent-lt);color:var(--accent); }
-.pb.green { background:var(--green-lt);color:var(--green); }
-
-.pub-links { display:flex;gap:.35rem;flex-wrap:wrap; }
-.pl { font-size:.65rem;font-weight:600;padding:.2rem .58rem;border-radius:4px;text-decoration:none;transition:background .12s; }
-.pl.solid { background:var(--ink);color:#fff; }
-.pl.solid:hover { background:#333; }
-.pl.out { background:transparent;color:var(--ink2);border:1px solid var(--rule); }
-.pl.out:hover { background:var(--accent-lt);color:var(--accent);border-color:transparent; }
-.pl.web { background:var(--accent-lt);color:var(--accent);border:1px solid #bfdbfe; }
-.pl.web:hover { background:#dbeafe; }
-
-@media(max-width:520px){
-  .pub-item{grid-template-columns:1fr}
-  .pub-thumb,.pub-thumb-ph{display:none}
-}
-</style>
-</head>
-<body>
-<nav>
-  <div class="nav-inner">
-    <span class="nav-name">Sheeraz Athar</span>
-    <ul class="nav-links">
-      <li><a href="index.html">About</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="publications.html" class="active">Publications</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="outreach.html">Outreach</a></li>
-      <li><a href="files/cv.pdf" target="_blank">CV ↗</a></li>
-    </ul>
-  </div>
-</nav>
-
-<div class="container">
-<div class="section">
-
-  <div class="section-label">Publications</div>
-  <p style="font-size:.75rem;color:var(--ink3);margin-bottom:1.5rem;">
-    <a href="https://scholar.google.com/citations?user=tYORPw8AAAAJ&hl=en" target="_blank" style="color:var(--accent);font-weight:500;">Google Scholar</a> &nbsp;·&nbsp;
-    <a href="https://orcid.org/0000-0001-8749-7221" target="_blank" style="color:var(--accent);font-weight:500;">ORCID</a> &nbsp;·&nbsp;
-    * equal contribution
-  </p>
-
-  <!-- ── IROS 2026 ── -->
-  <div class="pub-section-label">Conference Proceedings — IROS 2026</div>
-
-  <div class="pub-item">
-    <img class="pub-thumb" src="https://yuhao-zhou.com/vtap/static/images/hardware.PNG" alt="VTAP Gripper" onerror="this.outerHTML='<div class=\'pub-thumb-ph\'>🖐️</div>'">
+  <article class="pub">
+    <div class="thumb video" data-yt="jpdKHdlv6mQ"><img src="https://img.youtube.com/vi/jpdKHdlv6mQ/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
     <div>
-      <div class="pub-title">VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation</div>
-      <div class="pub-authors">Yuhao Zhou, <strong>Sheeraz Athar*</strong>, Zhixian Hu*, Binghao Huang, Yunzhu Li, Juan Wachs, Yu She</div>
-      <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
-      <div class="pub-badges">
-        <span class="pb gold">🏅 Best Paper Award Finalist — Top 0.23%</span>
-        <span class="pb gold">🥈 2026 ASME SMRDC 2nd Prize</span>
-        <span class="pb blue">Dexterous Manipulation</span>
-        <span class="pb blue">Tactile-Reactive Grasping</span>
-        <span class="pb blue">In-Hand Manipulation</span>
-      </div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://arxiv.org/abs/2607.15448" target="_blank">arXiv</a>
-        <a class="pl web" href="https://yuhao-zhou.com/vtap/index.html" target="_blank">Project Page</a>
-        <a class="pl out" href="https://youtu.be/jpdKHdlv6mQ" target="_blank">Video</a>
-      </div>
+      <span class="venue-badge">IROS 2026</span>
+      <h3><a href="https://yuhao-zhou.com/vtap/index.html" target="_blank">VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation</a></h3>
+      <div class="authors">Yuhao Zhou, <b>Sheeraz Athar</b>*, Zhixian Hu*, Binghao Huang, Yunzhu Li, Juan Wachs, Yu She</div>
+      <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems, 2026</div>
+      <div class="honor">🏅 Best Paper Award Finalist (top 0.23%) · 🥈 ASME SMRDC 2026 2nd Prize</div>
+      <div class="plinks"><a class="primary" href="https://arxiv.org/abs/2607.15448" target="_blank">Paper</a><a href="https://yuhao-zhou.com/vtap/index.html" target="_blank">Project page</a><a href="https://youtu.be/jpdKHdlv6mQ" target="_blank">Video</a></div>
+      <details><summary>Abstract</summary><p>A tactile-reactive gripper integrating a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers with tactile array sensors. The actuated bi-modal palm combines long-range visual localization with contact-rich tactile feedback. A staged, gesture-conditioned retargeting framework enables dexterous teleoperation. Validated on reactive grasping of YCB and fragile objects, in-hand syringe reorientation, singulation of 3 mm objects, and vision-tactile peg-in-hole insertion.</p></details>
     </div>
-  </div>
+  </article>
 
-  <div class="pub-item">
-    <img class="pub-thumb" src="https://mvp-tac.github.io/static/images/reflective_photoelasticity_animation_final.gif" alt="MVP-Tac" onerror="this.outerHTML='<div class=\'pub-thumb-ph\'>🔬</div>'">
+  <article class="pub">
+    <div class="thumb"><img src="https://mvp-tac.github.io/static/images/reflective_photoelasticity_animation_final.gif" alt="" onerror="this.parentElement.innerHTML='<div class=ph>🩺</div>'"></div>
     <div>
-      <div class="pub-title">MVP-Tac: A Miniaturized Dual-Modal Vision and Photoelastic Tactile Sensor for Robot-Assisted Minimally Invasive Surgery</div>
-      <div class="pub-authors">M. R. I. Prince, Jaeeun Kim, Yuhao Zhou, Mason Vrshek, Shivani R. Sama, Adyaa Khera, <strong>Sheeraz Athar</strong>, Zijie Xu, Jiabin Liu, Shaoting Lin, Wei Li, Yu She</div>
-      <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
-      <div class="pub-badges">
-        <span class="pb blue">Surgical Robotics</span>
-        <span class="pb blue">Dual-Modal Sensing</span>
-        <span class="pb blue">Photoelastic Imaging</span>
-      </div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://arxiv.org/abs/2607.18660" target="_blank">arXiv</a>
-        <a class="pl web" href="https://mvp-tac.github.io/" target="_blank">Project Page</a>
-        <a class="pl out" href="https://github.com/prince-css/mvp-tac" target="_blank">Code</a>
-      </div>
+      <span class="venue-badge">IROS 2026</span>
+      <h3><a href="https://mvp-tac.github.io/" target="_blank">MVP-Tac: A Miniaturized Dual-Modal Vision and Photoelastic Tactile Sensor for Robot-Assisted Minimally Invasive Surgery</a></h3>
+      <div class="authors">Md Rakibul Islam Prince, Jaeeun Kim, Yuhao Zhou, Mason Vrshek, Shivani Reddy Sama, Adyaa Khera, <b>Sheeraz Athar</b>, Zijie Xu, Jiabin Liu, Shaoting Lin, Wei Li, Yu She</div>
+      <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems, 2026</div>
+      <div class="plinks"><a class="primary" href="https://arxiv.org/abs/2607.18660" target="_blank">Paper</a><a href="https://mvp-tac.github.io/" target="_blank">Project page</a><a href="https://github.com/prince-css/mvp-tac" target="_blank">Code</a></div>
+      <details><summary>Abstract</summary><p>A 7 mm endoscope-compatible sensor providing co-located vision and tactile sensing via reflective photoelastic imaging. A thin photoelastic elastomer produces stress-dependent interferograms under contact; a semi-transparent membrane and controllable illumination switch between visual and tactile modes. Validated with 0–2 N force calibration, 97% tumor-phantom hardness classification, and a simulated colonoscopy with vision-guided 3D photomapping.</p></details>
     </div>
-  </div>
+  </article>
 
-  <div class="pub-item">
-    <div class="pub-thumb-ph">👁️</div>
+  <article class="pub">
+    <div class="thumb"><div class="ph">👁️</div></div>
     <div>
-      <div class="pub-title">MuxGel: Simultaneous Dual-Modal Visuo-Tactile Sensing via Spatially Multiplexing and Deep Reconstruction</div>
-      <div class="pub-authors">Zhixian Hu, Zhengtong Xu, <strong>Sheeraz Athar</strong>, Juan Wachs, Yu She</div>
-      <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026 · NSF #2140612, #2423068</div>
-      <div class="pub-badges">
-        <span class="pb blue">Visuo-Tactile Sensing</span>
-        <span class="pb blue">Spatial Multiplexing</span>
-        <span class="pb blue">GelSight-compatible</span>
-      </div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://arxiv.org/abs/2603.09761" target="_blank">arXiv</a>
-        <a class="pl web" href="https://zhixianhu.github.io/muxgel/" target="_blank">Project Page</a>
-      </div>
+      <span class="venue-badge">IROS 2026</span>
+      <h3><a href="https://zhixianhu.github.io/muxgel/" target="_blank">MuxGel: Simultaneous Dual-Modal Visuo-Tactile Sensing via Spatially Multiplexing and Deep Reconstruction</a></h3>
+      <div class="authors">Zhixian Hu, Zhengtong Xu, <b>Sheeraz Athar</b>, Juan Wachs, Yu She</div>
+      <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems, 2026</div>
+      <div class="plinks"><a class="primary" href="https://arxiv.org/abs/2603.09761" target="_blank">Paper</a><a href="https://zhixianhu.github.io/muxgel/" target="_blank">Project page</a></div>
+      <details><summary>Abstract</summary><p>A spatially multiplexed gel pad with a checkerboard coating that interleaves tactile-sensitive regions with transparent windows, letting a single camera capture both external vision and contact-induced tactile signals. A U-Net reconstruction framework trained via a sim-to-real pipeline recovers dense visual and tactile fields. Plug-and-play with GelSight-style sensors.</p></details>
     </div>
-  </div>
+  </article>
 
-  <!-- ── JOURNAL ARTICLES ── -->
-  <div class="pub-section-label">Refereed Journal Articles</div>
+  <div class="pub-group">Journal articles</div>
 
-  <div class="pub-item">
-    <img class="pub-thumb" src="https://img.youtube.com/vi/vnFHvJH3SpY/mqdefault.jpg" alt="FibTac">
+  <article class="pub">
+    <div class="thumb video" data-yt="vnFHvJH3SpY"><img src="https://img.youtube.com/vi/vnFHvJH3SpY/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
     <div>
-      <div class="pub-title">FibTac: A Fiber-Based Pneumatic Gripper with Embodied Tactile Sensing</div>
-      <div class="pub-authors"><strong>Sheeraz Athar</strong>, Xinwei Zhang, M. R. I. Prince, Vincent G. Duffy, Yu She</div>
-      <div class="pub-venue">npj Robotics, vol. 4, art. 47, Nature Portfolio, 2026</div>
-      <div class="pub-badges">
-        <span class="pb purple">Nature Portfolio</span>
-        <span class="pb gold">🏅 IROS 2026 Best Paper Finalist</span>
-        <span class="pb green">Open Access</span>
-      </div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank">Paper</a>
-        <a class="pl out" href="https://www.nature.com/articles/s44182-026-00112-0.pdf" target="_blank">PDF</a>
-        <a class="pl out" href="https://youtu.be/vnFHvJH3SpY" target="_blank">Video</a>
-        <a class="pl out" href="https://github.com/xvvzhang/FibTac" target="_blank">Code</a>
-      </div>
+      <span class="venue-badge nature">npj Robotics</span>
+      <h3><a href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank">FibTac: A Fiber-Based Pneumatic Gripper with Embodied Tactile Sensing</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Xinwei Zhang, Md Rakibul Islam Prince, Vincent G. Duffy, Yu She</div>
+      <div class="venue">npj Robotics (Nature Portfolio), vol. 4, art. 47, 2026 · Open Access</div>
+      <div class="plinks"><a class="primary" href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank">Paper</a><a href="https://www.nature.com/articles/s44182-026-00112-0.pdf" target="_blank">PDF</a><a href="https://github.com/xvvzhang/FibTac" target="_blank">Code</a><a href="https://youtu.be/vnFHvJH3SpY" target="_blank">Video</a></div>
+      <details><summary>Abstract</summary><p>Inspired by biological whiskers and tentacles, FibTac unifies tactile sensing and grasping in a single fiber-embedded silicone structure. Pneumatic actuation deforms the elastomer while an internal camera tracks fiber-tip motion for distributed tactile feedback. Operates in air and underwater, lifts up to 186 g, grasps delicate biological specimens and sub-millimeter granular media, and achieves ~90% accuracy in liquid classification, object recognition, and underwater flow estimation.</p></details>
     </div>
-  </div>
+  </article>
 
-  <div class="pub-item">
-    <img class="pub-thumb" src="images/ts.png" alt="TacScope" onerror="this.outerHTML='<div class=\'pub-thumb-ph\'>🔬</div>'">
+  <article class="pub">
+    <div class="thumb"><img src="images/ts.png" alt="" onerror="this.parentElement.innerHTML='<div class=ph>🔬</div>'"></div>
     <div>
-      <div class="pub-title">TacScope: A Miniaturized Vision-Based Tactile Sensor for Surgical Applications</div>
-      <div class="pub-authors">M. R. I. Prince, <strong>Sheeraz Athar</strong>, Pokuang Zhou, Yu She</div>
-      <div class="pub-venue">Advanced Robotics Research, Wiley, 2025</div>
-      <div class="pub-badges"><span class="pb blue">Surgical Robotics</span><span class="pb blue">Miniaturized Sensing</span></div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adrr.202500117" target="_blank">DOI</a>
-        <a class="pl out" href="https://youtu.be/vnFHvJH3SpY" target="_blank">Video</a>
-      </div>
+      <span class="venue-badge">Adv. Robotics Res.</span>
+      <h3><a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adrr.202500117" target="_blank">TacScope: A Miniaturized Vision-Based Tactile Sensor for Surgical Applications</a></h3>
+      <div class="authors">Md Rakibul Islam Prince, <b>Sheeraz Athar</b>, Pokuang Zhou, Yu She</div>
+      <div class="venue">Advanced Robotics Research (Wiley), 2025</div>
+      <div class="plinks"><a class="primary" href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adrr.202500117" target="_blank">Paper</a><a href="https://youtu.be/vnFHvJH3SpY" target="_blank">Video</a></div>
     </div>
-  </div>
+  </article>
 
-  <div class="pub-item">
-    <img class="pub-thumb" src="https://img.youtube.com/vi/kmKIUlXGroo/mqdefault.jpg" alt="VibTac">
+  <article class="pub">
+    <div class="thumb video" data-yt="kmKIUlXGroo" data-start="12"><img src="https://img.youtube.com/vi/kmKIUlXGroo/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
     <div>
-      <div class="pub-title">VibTac: A High-Resolution, High-Bandwidth Tactile Sensing Finger for Multimodal Perception in Robotic Manipulation</div>
-      <div class="pub-authors"><strong>Sheeraz Athar</strong>, Xinwei Zhang, Jun Ueda, Ye Zhao, Yu She</div>
-      <div class="pub-venue">IEEE Transactions on Haptics, vol. 18, pp. 507–518, 2025</div>
-      <div class="pub-badges"><span class="pb gold">🥈 ASME MRC 2nd Prize</span></div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://ieeexplore.ieee.org/document/10965524/" target="_blank">IEEE Xplore</a>
-        <a class="pl out" href="https://www.youtube.com/watch?v=kmKIUlXGroo&feature=youtu.be" target="_blank">Video</a>
-        <a class="pl out" href="https://sites.google.com/site/asmemrc/design-competition-showcase" target="_blank">ASME</a>
-      </div>
+      <span class="venue-badge">IEEE T-Haptics</span>
+      <h3><a href="https://ieeexplore.ieee.org/document/10965524/" target="_blank">VibTac: A High-Resolution, High-Bandwidth Tactile Sensing Finger for Multimodal Perception in Robotic Manipulation</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Xinwei Zhang, Jun Ueda, Ye Zhao, Yu She</div>
+      <div class="venue">IEEE Transactions on Haptics, vol. 18, pp. 507–518, 2025</div>
+      <div class="plinks"><a class="primary" href="https://ieeexplore.ieee.org/document/10965524/" target="_blank">Paper</a><a href="https://www.youtube.com/watch?v=kmKIUlXGroo" target="_blank">Video</a></div>
     </div>
-  </div>
+  </article>
 
-  <div class="pub-item">
-    <img class="pub-thumb" src="https://img.youtube.com/vi/SLN2gQ_haYs/mqdefault.jpg" alt="VisTac">
+  <article class="pub">
+    <div class="thumb video" data-yt="SLN2gQ_haYs"><img src="https://img.youtube.com/vi/SLN2gQ_haYs/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
     <div>
-      <div class="pub-title">VisTac: Towards a Unified Multimodal Sensing Finger for Robotic Manipulation</div>
-      <div class="pub-authors"><strong>Sheeraz Athar</strong>, Gaurav Patel, Zhengtong Xu, Qiang Qiu, Yu She</div>
-      <div class="pub-venue">IEEE Sensors Journal, vol. 23, no. 20, pp. 25440–25450, 2023</div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://ieeexplore.ieee.org/document/10242327" target="_blank">IEEE Xplore</a>
-        <a class="pl out" href="https://www.youtube.com/watch?v=SLN2gQ_haYs&feature=youtu.be" target="_blank">Video</a>
-      </div>
+      <span class="venue-badge">IEEE Sensors J.</span>
+      <h3><a href="https://ieeexplore.ieee.org/document/10242327" target="_blank">VisTac: Towards a Unified Multimodal Sensing Finger for Robotic Manipulation</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Gaurav Patel, Zhengtong Xu, Qiang Qiu, Yu She</div>
+      <div class="venue">IEEE Sensors Journal, vol. 23, no. 20, pp. 25440–25450, 2023</div>
+      <div class="plinks"><a class="primary" href="https://ieeexplore.ieee.org/document/10242327" target="_blank">Paper</a><a href="https://www.youtube.com/watch?v=SLN2gQ_haYs" target="_blank">Video</a></div>
     </div>
-  </div>
+  </article>
 
-  <!-- ── OTHER CONF ── -->
-  <div class="pub-section-label">Conference Proceedings — ASME / IEEE</div>
+  <div class="pub-group">Conference papers · ASME / IEEE</div>
 
-  <div class="pub-item">
-    <div class="pub-thumb-ph">🌊</div>
+  <article class="pub">
+    <div class="thumb video" data-yt="J4jDJU6wQ2s"><img src="https://img.youtube.com/vi/J4jDJU6wQ2s/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
     <div>
-      <div class="pub-title">Design and Development of a Multimodal Underwater Robot: An All-In-One Drifter, Glider, and Thruster</div>
-      <div class="pub-authors"><strong>Sheeraz Athar</strong>, Craig Hillyer, Vikas Vivek, Siddhant Shelar, Andrew Song, Nhan Nguyen, Arushi Patel, Cindy Huang, Yu She</div>
-      <div class="pub-venue">ASME IDETC/CIE 2026 — 50th Mechanisms and Robotics Conference · DOI: 10.1115/1.4072705</div>
-      <div class="pub-badges">
-        <span class="pb blue">Underwater Robotics</span>
-        <span class="pb blue">Field Robotics</span>
-        <span class="pb">Patent Pending</span>
-        <span class="pb green">NSF-funded</span>
-      </div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://doi.org/10.1115/1.4072705" target="_blank">DOI</a>
-        <a class="pl out" href="https://www.youtube.com/watch?v=J4jDJU6wQ2s" target="_blank">Video</a>
-        <a class="pl out" href="https://www.purdue.edu/newsroom/2026/Q3/purdues-new-underwater-robot-could-make-ocean-missions-more-reliable/" target="_blank">Purdue News</a>
-      </div>
+      <span class="venue-badge">ASME IDETC 2026</span>
+      <h3><a href="https://doi.org/10.1115/1.4072705" target="_blank">Design and Development of a Multimodal Underwater Robot: An All-In-One Drifter, Glider, and Thruster</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Craig Hillyer, Vikas Vivek, Siddhant Shelar, Andrew Song, Nhan Nguyen, Arushi Patel, Cindy Huang, Yu She</div>
+      <div class="venue">ASME IDETC/CIE 2026 — 50th Mechanisms &amp; Robotics Conference · Patent pending · NSF #2322056</div>
+      <div class="plinks"><a class="primary" href="https://doi.org/10.1115/1.4072705" target="_blank">Paper</a><a href="https://www.youtube.com/watch?v=J4jDJU6wQ2s" target="_blank">Video</a><a href="https://www.purdue.edu/newsroom/2026/Q3/purdues-new-underwater-robot-could-make-ocean-missions-more-reliable/" target="_blank">Purdue News</a><a href="https://www.wlfi.com/2026/09/04/purdue-students-help-develop-underwater-robot-with-multiple-ways-move/" target="_blank">WLFI TV</a></div>
+      <details><summary>Abstract</summary><p>The first underwater robot to integrate drifting, gliding, and thruster-driven locomotion in one compact platform, with a buoyancy control module, moving-mass pitch regulation, foldable wings for mode transition, and a rear propulsion/steering assembly. Pool experiments validate all three locomotion modes and transitions between them.</p></details>
     </div>
-  </div>
+  </article>
 
-  <div class="pub-item">
-    <img class="pub-thumb" src="images/publications/iros2020.jpg" alt="IROS 2020" onerror="this.outerHTML='<div class=\'pub-thumb-ph\'>🤖</div>'">
+  <article class="pub">
+    <div class="thumb"><img src="images/publications/iros2020.jpg" alt="" onerror="this.parentElement.innerHTML='<div class=ph>🤖</div>'"></div>
     <div>
-      <div class="pub-title">Vacuum-Driven Auxetic Switching Structure and Its Application on a Gripper and Quadruped</div>
-      <div class="pub-authors">S. Liu, <strong>Sheeraz Athar</strong>, M. Y. Wang</div>
-      <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020</div>
-      <div class="pub-badges"><span class="pb blue">Soft Robotics</span><span class="pb">Auxetic Structures</span></div>
-      <div class="pub-links">
-        <a class="pl solid" href="https://doi.org/10.1109/IROS45743.2020.9341338" target="_blank">DOI</a>
-      </div>
+      <span class="venue-badge">IROS 2020</span>
+      <h3><a href="https://doi.org/10.1109/IROS45743.2020.9341338" target="_blank">Vacuum-Driven Auxetic Switching Structure and Its Application on a Gripper and Quadruped</a></h3>
+      <div class="authors">Sicong Liu, <b>Sheeraz Athar</b>, Michael Yu Wang</div>
+      <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems, 2020</div>
+      <div class="plinks"><a class="primary" href="https://doi.org/10.1109/IROS45743.2020.9341338" target="_blank">Paper</a></div>
     </div>
-  </div>
+  </article>
 
-  <!-- ── PATENTS ── -->
-  <div class="pub-section-label">Patents</div>
+  <div class="pub-group">Patents</div>
 
-  <div class="pub-item">
-    <div class="pub-thumb-ph">🌊</div>
+  <article class="pub">
+    <div class="thumb"><div class="ph">🌊</div></div>
     <div>
-      <div class="pub-title">Trimodal Underwater Robot: Integrated Drifting, Gliding, and Thrusting Platform</div>
-      <div class="pub-authors"><strong>Sheeraz Athar</strong>, A. Patel, S. Shelar, C. Hillyer, N. Nguyen, V. Vivek, Yu She</div>
-      <div class="pub-venue">Patent pending — filed through Purdue Innovates Office of Technology Commercialization, 2026</div>
+      <h3>Multimodal Underwater Robot: Integrated Drifting, Gliding, and Thrusting Platform</h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Arushi Patel, Siddhant Shelar, Craig Hillyer, Nhan Nguyen, Vikas Vivek, Yu She</div>
+      <div class="venue">Patent pending · Purdue Innovates Office of Technology Commercialization, 2026</div>
     </div>
-  </div>
-
-  <div class="pub-item">
-    <div class="pub-thumb-ph">✋</div>
+  </article>
+  <article class="pub">
+    <div class="thumb"><div class="ph">✋</div></div>
     <div>
-      <div class="pub-title">FibTac: A Pneumatic Fiber-Based Tactile Gripper for Embodied Sensing and Manipulation</div>
-      <div class="pub-authors"><strong>Sheeraz Athar</strong>, Yu She</div>
-      <div class="pub-venue">Patent in preparation, 2025</div>
+      <h3>FibTac: A Pneumatic Fiber-Based Tactile Gripper for Embodied Sensing and Manipulation</h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Yu She</div>
+      <div class="venue">Patent in preparation, 2025</div>
     </div>
-  </div>
+  </article>
 
-</div><!-- /section -->
-</div><!-- /container -->
-
-<footer class="container">
+</section>
+</main>
+<footer><div class="wrap">
   <span>© 2026 Sheeraz Athar · <a href="mailto:athar@nd.edu">athar@nd.edu</a></span>
   <span>University of Notre Dame</span>
-</footer>
-</body>
-</html>
+</div></footer>
+<script>
+// click-to-play: swaps a thumbnail for the YouTube embed
+document.querySelectorAll('.thumb.video').forEach(t=>{
+  t.addEventListener('click',()=>{
+    const id=t.dataset.yt, start=t.dataset.start||0;
+    t.innerHTML='<iframe src="https://www.youtube.com/embed/'+id+'?autoplay=1&start='+start+'&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    t.classList.add('playing');
+  });
+});
+// news show/hide
+const nt=document.querySelector('.news-toggle');
+if(nt){nt.addEventListener('click',()=>{const n=document.querySelector('.news');n.classList.toggle('open');nt.textContent=n.classList.contains('open')?'Show less':'Show older news';});}
+</script>
+</body></html>

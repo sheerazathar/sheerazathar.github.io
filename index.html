@@ -1,496 +1,179 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sheeraz Athar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --white:#ffffff;
-  --bg:#fafafa;
-  --ink:#0f0f0f;
-  --ink2:#3a3a3a;
-  --ink3:#6b6b6b;
-  --rule:#e8e8e8;
-  --accent:#1d4ed8;
-  --accent-h:#1e40af;
-  --accent-lt:#eff6ff;
-  --green:#059669;
-  --green-lt:#ecfdf5;
-  --gold:#b45309;
-  --gold-lt:#fffbeb;
-  --purple:#7c3aed;
-  --purple-lt:#f5f3ff;
-  --max:900px;
-  --nav-h:56px;
-}
-html{font-size:15px;scroll-behavior:smooth}
-body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-img{max-width:100%;display:block}
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/3.JPG">
+<title>Sheeraz Athar</title></head><body>
+<header class="nav"><div class="wrap">
+  <a class="nav-name" href="index.html">Sheeraz Athar</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">About</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="outreach.html">Outreach</a></li>
+    <li><a href="files/cv.pdf" target="_blank">CV</a></li>
+  </ul>
+</div></header>
+<main class="wrap">
 
-/* ── NAV ── */
-nav{
-  position:sticky;top:0;z-index:50;
-  background:rgba(250,250,250,0.9);
-  backdrop-filter:blur(12px);
-  border-bottom:1px solid var(--rule);
-  height:var(--nav-h);
-}
-.nav-inner{
-  max-width:var(--max);margin:0 auto;
-  padding:0 1.5rem;
-  height:100%;
-  display:flex;align-items:center;justify-content:space-between;
-}
-.nav-name{font-size:.875rem;font-weight:600;color:var(--ink);letter-spacing:-.01em}
-.nav-links{display:flex;gap:1.5rem;list-style:none}
-.nav-links a{font-size:.8rem;font-weight:500;color:var(--ink3);transition:color .15s}
-.nav-links a:hover,.nav-links a.active{color:var(--ink)}
-
-/* ── HERO ── */
-.hero{
-  max-width:var(--max);margin:0 auto;
-  padding:4rem 1.5rem 3rem;
-  display:grid;
-  grid-template-columns:1fr 160px;
-  gap:2.5rem;
-  align-items:start;
-}
-.hero-tag{
-  font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
-  color:var(--accent);margin-bottom:.75rem;
-}
-.hero-name{
-  font-size:2.4rem;font-weight:700;color:var(--ink);
-  letter-spacing:-.03em;line-height:1.1;margin-bottom:.6rem;
-}
-.hero-role{font-size:.9rem;color:var(--ink2);line-height:1.6;margin-bottom:1rem}
-.hero-role a{color:var(--accent);border-bottom:1px solid transparent;transition:border-color .15s}
-.hero-role a:hover{border-color:var(--accent)}
-.hero-bio{font-size:.875rem;color:var(--ink2);line-height:1.8;margin-bottom:1.25rem;max-width:58ch}
-.hero-bio a{color:var(--accent)}
-.hero-bio a:hover{text-decoration:underline}
-.badge-row{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.25rem}
-.badge{
-  display:inline-flex;align-items:center;gap:.3rem;
-  font-size:.68rem;font-weight:500;
-  padding:.22rem .6rem;border-radius:99px;border:1px solid;
-}
-.badge-blue{color:var(--accent);background:var(--accent-lt);border-color:#bfdbfe}
-.badge-gold{color:var(--gold);background:var(--gold-lt);border-color:#fde68a}
-.badge-purple{color:var(--purple);background:var(--purple-lt);border-color:#ddd6fe}
-.badge-green{color:var(--green);background:var(--green-lt);border-color:#a7f3d0}
-.link-row{display:flex;flex-wrap:wrap;gap:.5rem}
-.link-btn{
-  display:inline-flex;align-items:center;gap:.35rem;
-  font-size:.75rem;font-weight:500;
-  padding:.3rem .75rem;border-radius:6px;
-  border:1px solid var(--rule);
-  background:var(--white);color:var(--ink2);
-  transition:all .15s;
-}
-.link-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-lt)}
-.link-btn svg{opacity:.7;flex-shrink:0}
-.link-btn:hover svg{opacity:1}
-.hero-photo-wrap{display:flex;flex-direction:column;align-items:center;gap:.75rem;padding-top:.5rem}
-.hero-photo{
-  width:140px;height:140px;border-radius:50%;
-  object-fit:cover;
-  border:3px solid var(--white);
-  box-shadow:0 0 0 1px var(--rule),0 8px 24px rgba(0,0,0,.1);
-}
-.hero-affil{font-size:.7rem;color:var(--ink3);text-align:center;line-height:1.5}
-.hero-affil a{color:var(--accent)}
-.status-dot{
-  display:inline-flex;align-items:center;gap:.35rem;
-  font-size:.68rem;font-weight:500;color:var(--green);
-}
-.status-dot::before{
-  content:'';width:6px;height:6px;border-radius:50%;
-  background:var(--green);animation:pulse 2s ease-in-out infinite;flex-shrink:0;
-}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-
-/* ── SECTIONS ── */
-.container{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
-.section{padding:2.5rem 0;border-top:1px solid var(--rule)}
-.section:first-child{border-top:none}
-.section-label{
-  font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--ink3);margin-bottom:1.25rem;
-}
-
-/* ── NEWS ── */
-.news-list{display:flex;flex-direction:column}
-.news-item{
-  display:grid;grid-template-columns:90px 1fr;
-  gap:0 1rem;padding:.6rem 0;border-bottom:1px solid var(--rule);
-  align-items:baseline;
-}
-.news-item:last-child{border-bottom:none}
-.news-date{font-size:.7rem;color:var(--ink3);white-space:nowrap;font-variant-numeric:tabular-nums}
-.news-text{font-size:.8rem;color:var(--ink2);line-height:1.6}
-.news-text a{color:var(--accent)}
-.news-text a:hover{text-decoration:underline}
-.news-text strong{color:var(--ink);font-weight:600}
-.tag{
-  display:inline-block;font-size:.6rem;font-weight:600;
-  padding:.08rem .35rem;border-radius:3px;
-  margin-right:.3rem;vertical-align:middle;position:relative;top:-1px;
-}
-.t-award{background:var(--gold-lt);color:var(--gold)}
-.t-pub{background:var(--purple-lt);color:var(--purple)}
-.t-press{background:var(--accent-lt);color:var(--accent)}
-.t-ms{background:#f4f4f5;color:#52525b}
-
-/* ── RESEARCH AREAS ── */
-.area-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:.6rem}
-.area-card{
-  background:var(--white);border:1px solid var(--rule);border-radius:10px;
-  padding:.85rem .75rem;text-align:center;
-  display:flex;flex-direction:column;align-items:center;gap:.35rem;
-  transition:border-color .15s,box-shadow .15s;
-}
-.area-card:hover{border-color:var(--accent);box-shadow:0 4px 12px rgba(29,78,216,.08)}
-.area-icon{font-size:1.4rem;line-height:1}
-.area-label{font-size:.65rem;font-weight:600;color:var(--ink2);line-height:1.3}
-.area-sub{font-size:.58rem;color:var(--ink3);line-height:1.3}
-
-/* ── PUBLICATIONS (homepage preview) ── */
-.pub-preview{display:flex;flex-direction:column;gap:.85rem}
-.pub-row{
-  display:grid;grid-template-columns:64px 1fr;gap:0 1rem;
-  padding:.85rem;background:var(--white);border:1px solid var(--rule);
-  border-radius:10px;align-items:start;
-  transition:border-color .15s,box-shadow .15s;
-}
-.pub-row:hover{border-color:var(--accent);box-shadow:0 4px 16px rgba(29,78,216,.07)}
-.pub-thumb{
-  width:64px;height:64px;border-radius:6px;
-  object-fit:cover;border:1px solid var(--rule);flex-shrink:0;
-}
-.pub-thumb-ph{
-  width:64px;height:64px;border-radius:6px;border:1px solid var(--rule);
-  background:linear-gradient(135deg,var(--accent-lt),#dbeafe);
-  display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;
-}
-.pub-info{}
-.pub-title{font-size:.8rem;font-weight:600;color:var(--ink);line-height:1.4;margin-bottom:.2rem}
-.pub-authors{font-size:.7rem;color:var(--ink3);margin-bottom:.2rem}
-.pub-authors strong{color:var(--ink2);font-weight:600}
-.pub-venue{font-size:.7rem;color:var(--ink2);font-style:italic;margin-bottom:.35rem}
-.pub-tags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.35rem}
-.pt{font-size:.6rem;font-weight:500;padding:.1rem .4rem;border-radius:3px;background:#f4f4f5;color:#52525b}
-.pt.blue{background:var(--accent-lt);color:var(--accent)}
-.pt.gold{background:var(--gold-lt);color:var(--gold)}
-.pt.purple{background:var(--purple-lt);color:var(--purple)}
-.pub-links{display:flex;gap:.35rem;flex-wrap:wrap}
-.pl{
-  font-size:.65rem;font-weight:600;padding:.18rem .55rem;border-radius:4px;
-  text-decoration:none;transition:background .12s;
-}
-.pl.solid{background:var(--ink);color:#fff}
-.pl.solid:hover{background:#333}
-.pl.outline{background:transparent;color:var(--ink2);border:1px solid var(--rule)}
-.pl.outline:hover{background:var(--accent-lt);color:var(--accent);border-color:transparent}
-
-/* ── TIMELINE ── */
-.timeline{display:flex;flex-direction:column;gap:0;border-left:2px solid var(--rule);margin-left:6px;padding-left:1.5rem}
-.tl{position:relative;padding-bottom:1.5rem}
-.tl:last-child{padding-bottom:0}
-.tl::before{content:'';position:absolute;left:-1.75rem;top:.4rem;width:8px;height:8px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);box-shadow:0 0 0 1.5px var(--accent)}
-.tl-year{font-size:.65rem;font-weight:600;color:var(--accent);margin-bottom:.1rem}
-.tl-role{font-size:.82rem;font-weight:600;color:var(--ink)}
-.tl-place{font-size:.72rem;color:var(--ink2);margin-bottom:.25rem}
-.tl-place a{color:var(--accent)}
-.tl-desc{font-size:.7rem;color:var(--ink3);line-height:1.65;max-width:56ch}
-
-/* ── MEDIA CARDS ── */
-.media-row{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem}
-.media-card{
-  background:var(--white);border:1px solid var(--rule);border-radius:10px;
-  overflow:hidden;text-decoration:none;display:flex;flex-direction:column;
-  transition:border-color .15s,box-shadow .15s;
-}
-.media-card:hover{border-color:var(--accent);box-shadow:0 4px 16px rgba(29,78,216,.07)}
-.media-img{width:100%;aspect-ratio:16/9;object-fit:cover}
-.media-ph{width:100%;aspect-ratio:16/9;background:linear-gradient(135deg,#1e3a5f,#1d4ed8);display:flex;align-items:center;justify-content:center;font-size:2rem}
-.media-body{padding:.75rem}
-.media-src{font-size:.6rem;font-weight:600;color:var(--ink3);letter-spacing:.04em;text-transform:uppercase;margin-bottom:.25rem}
-.media-hl{font-size:.72rem;font-weight:600;color:var(--ink);line-height:1.4}
-.media-date{font-size:.62rem;color:var(--ink3);margin-top:.35rem}
-
-/* ── FOOTER ── */
-footer{
-  max-width:var(--max);margin:0 auto;
-  padding:1.5rem;
-  border-top:1px solid var(--rule);
-  display:flex;align-items:center;justify-content:space-between;
-  font-size:.7rem;color:var(--ink3);
-}
-footer a{color:var(--accent)}
-
-/* ── RESPONSIVE ── */
-@media(max-width:700px){
-  .hero{grid-template-columns:1fr;gap:1.5rem}
-  .hero-photo-wrap{flex-direction:row;justify-content:flex-start;padding-top:0}
-  .hero-photo{width:80px;height:80px}
-  .hero-name{font-size:1.75rem}
-  .area-grid{grid-template-columns:repeat(3,1fr)}
-  .media-row{grid-template-columns:1fr}
-  .nav-links{gap:.85rem}
-  .news-item{grid-template-columns:75px 1fr}
-  footer{flex-direction:column;gap:.5rem;text-align:center}
-}
-@media(max-width:480px){
-  .area-grid{grid-template-columns:repeat(2,1fr)}
-  .pub-row{grid-template-columns:1fr}
-  .pub-thumb,.pub-thumb-ph{display:none}
-}
-@media(prefers-reduced-motion:reduce){.status-dot::before{animation:none}*{transition:none!important}}
-</style>
-</head>
-<body>
-
-<!-- NAV -->
-<nav>
-  <div class="nav-inner">
-    <span class="nav-name">Sheeraz Athar</span>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">About</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="outreach.html">Outreach</a></li>
-      <li><a href="files/cv.pdf" target="_blank">CV ↗</a></li>
-    </ul>
-  </div>
-</nav>
-
-<!-- HERO -->
-<div class="container">
-<div class="hero">
+<!-- ═══ HERO ═══ -->
+<section class="hero">
   <div>
-    <div class="hero-tag">Postdoctoral Researcher · Robotics</div>
-    <h1 class="hero-name">Sheeraz Athar</h1>
-    <div class="hero-role">
-      <a href="https://ame.nd.edu/faculty/nikolaus-correll/" target="_blank">Physical AI & Robotics (PAIR) Initiative</a> ·
-      <a href="https://www.nd.edu/" target="_blank">University of Notre Dame</a><br>
-      Working with <a href="https://ame.nd.edu/faculty/nikolaus-correll/" target="_blank">Prof. Nikolaus Correll</a> on dexterous robotic hands
+    <h1>Sheeraz Athar</h1>
+    <div class="tagline">Postdoctoral Researcher · <a href="https://ame.nd.edu/faculty/nikolaus-correll/" target="_blank">PAIR Initiative</a>, University of Notre Dame</div>
+
+    <p>I build robots that <strong>feel</strong>. I work with <a href="https://ame.nd.edu/faculty/nikolaus-correll/" target="_blank">Prof. Nikolaus Correll</a> on <strong>dexterous robotic hands</strong> — combining compliant mechanics, embedded tactile sensing, and learning so robots can handle the physical world with human-like finesse.</p>
+
+    <p>I received my Ph.D. from <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>, advised by <a href="https://engineering.purdue.edu/IE/people/ptProfile?resource_id=256650" target="_blank">Prof. Yu She</a> at the <a href="https://www.purduemars.com/" target="_blank">MARS Lab</a>, where I developed vision-based and fiber-based tactile sensors (<strong>VisTac</strong>, <strong>VibTac</strong>, <strong>FibTac</strong>), tactile-reactive grippers, and a trimodal underwater robot. Before that I completed an M.Phil. in Robotics at <a href="https://hkust.edu.hk/" target="_blank">HKUST</a> with Prof. Michael Yu Wang, and a B.E. in Mechanical Engineering at <a href="https://www.amu.ac.in/" target="_blank">Aligarh Muslim University</a>.</p>
+
+    <p>My work spans soft robotics, multimodal tactile sensing, underwater and surgical robotics, and learning-enabled perception — always validated on real hardware.</p>
+
+    <div class="awards">
+      <span class="award">🏅 IROS 2026 Best Paper Finalist</span>
+      <span class="award">🥈 ASME SMRDC 2026 · 2nd Prize</span>
+      <span class="award blue">npj Robotics · Nature Portfolio</span>
+      <span class="award blue">NSF-funded</span>
     </div>
-    <div class="badge-row">
-      <span class="badge badge-purple">📄 npj Robotics · Nature Portfolio · 2026</span>
-      <span class="badge badge-gold">🏅 IROS 2026 Best Paper Finalist</span>
-      <span class="badge badge-gold">🥈 ASME MRC 2nd Prize</span>
-      <span class="badge badge-green">NSF-funded</span>
-    </div>
-    <p class="hero-bio">I design soft, compliant, and bio-inspired robotic systems with a focus on multimodal tactile sensing and physical interaction. My work spans soft robotics, underwater robotics, dexterous manipulation, and learning-enabled perception — always built and validated on real hardware.</p>
-    <div class="link-row">
-      <a class="link-btn" href="https://scholar.google.com/citations?user=tYORPw8AAAAJ&hl=en" target="_blank">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 10a8 8 0 017.162 3.44L24 9.5 12 0z"/></svg>Scholar
-      </a>
-      <a class="link-btn" href="https://github.com/SheerazAthar" target="_blank">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub
-      </a>
-      <a class="link-btn" href="https://www.linkedin.com/in/sheeraz-athar-401a63146" target="_blank">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn
-      </a>
-      <a class="link-btn" href="https://twitter.com/shirazathar" target="_blank">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.733-8.835L1.254 2.25H8.08l4.254 5.621 5.91-5.621zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Twitter
-      </a>
-      <a class="link-btn" href="https://orcid.org/0000-0001-8749-7221" target="_blank">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 01-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 3.872-2.484 3.872-3.722 0-2.016-1.284-3.722-3.872-3.722h-2.297z"/></svg>ORCID
-      </a>
-      <a class="link-btn" href="mailto:athar@nd.edu">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>Email
-      </a>
+
+    <div class="links">
+      <a href="mailto:athar@nd.edu"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>Email</a>
+      <a href="https://scholar.google.com/citations?user=tYORPw8AAAAJ&hl=en" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5 12 0z"/></svg>Scholar</a>
+      <a href="https://github.com/SheerazAthar" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>GitHub</a>
+      <a href="https://www.linkedin.com/in/sheeraz-athar-401a63146" target="_blank"><svg viewBox="0 0 24 24"><path d="M20.4 20.5h-3.5v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.5v6.3zM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1zm1.8 13.1H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.5c0 1 .8 1.8 1.8 1.8h20.4c1 0 1.8-.8 1.8-1.8V1.7C24 .8 23.2 0 22.2 0z"/></svg>LinkedIn</a>
+      <a href="https://twitter.com/shirazathar" target="_blank"><svg viewBox="0 0 24 24"><path d="M18.2 2.3h3.3l-7.2 8.3 8.5 11.2h-6.7l-4.7-6.2-5.4 6.2H2.7l7.7-8.8L1.3 2.3h6.8l4.3 5.6 5.8-5.6zm-1.1 17.5h1.8L7.1 4.1H5.1l12 15.7z"/></svg>X</a>
+      <a href="https://orcid.org/0000-0001-8749-7221" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zM7.4 4.4a.95.95 0 1 1 0 1.9.95.95 0 0 1 0-1.9zm-.7 3h1.4v10H6.7v-10zm3.5 0h3.9c3.7 0 5.3 2.7 5.3 5s-2 5-5.3 5h-3.9v-10zm1.5 1.3v7.4h2.3c3.3 0 3.9-2.5 3.9-3.7 0-2-1.3-3.7-3.9-3.7h-2.3z"/></svg>ORCID</a>
+      <a href="files/cv.pdf" target="_blank"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 7V3.5L18.5 9H13z"/></svg>CV</a>
     </div>
   </div>
-  <div class="hero-photo-wrap">
+  <div>
     <img class="hero-photo" src="images/3.JPG" alt="Sheeraz Athar">
-    <div class="hero-affil">
-      <a href="https://www.nd.edu/" target="_blank">Notre Dame</a><br>
-      Notre Dame, IN
-    </div>
-    <div class="status-dot">Available</div>
+    <div class="hero-loc">Notre Dame, IN</div>
   </div>
-</div>
-</div>
+</section>
 
-<!-- RESEARCH AREAS -->
-<div class="container">
-<div class="section">
-  <div class="section-label">Research Areas</div>
-  <div class="area-grid">
-    <div class="area-card"><div class="area-icon">🖐️</div><div class="area-label">Dexterous Hands</div><div class="area-sub">Notre Dame PAIR</div></div>
-    <div class="area-card"><div class="area-icon">✋</div><div class="area-label">Tactile Sensing</div><div class="area-sub">VisTac · VibTac · FibTac</div></div>
-    <div class="area-card"><div class="area-icon">🤖</div><div class="area-label">Soft Robotics</div><div class="area-sub">Bio-inspired · Compliant</div></div>
-    <div class="area-card"><div class="area-icon">🌊</div><div class="area-label">Underwater Robots</div><div class="area-sub">Trimodal · Field-ready</div></div>
-    <div class="area-card"><div class="area-icon">🧠</div><div class="area-label">Learning & Perception</div><div class="area-sub">Sensor fusion · Inference</div></div>
+<!-- ═══ RESEARCH AREAS ═══ -->
+<section class="section">
+  <div class="section-head"><h2>Research</h2></div>
+  <div class="areas">
+    <div class="area"><div class="ic">🖐️</div><div class="lb">Dexterous Hands</div><div class="sb">Notre Dame PAIR</div></div>
+    <div class="area"><div class="ic">✋</div><div class="lb">Tactile Sensing</div><div class="sb">VisTac · VibTac · FibTac</div></div>
+    <div class="area"><div class="ic">🤖</div><div class="lb">Soft Robotics</div><div class="sb">Bio-inspired · compliant</div></div>
+    <div class="area"><div class="ic">🌊</div><div class="lb">Underwater Robots</div><div class="sb">Trimodal · patent-pending</div></div>
+    <div class="area"><div class="ic">🩺</div><div class="lb">Surgical Sensing</div><div class="sb">TacScope · MVP-Tac</div></div>
   </div>
-</div>
-</div>
+</section>
 
-<!-- NEWS -->
-<div class="container">
-<div class="section">
-  <div class="section-label">News</div>
-  <div class="news-list">
-    <div class="news-item">
-      <div class="news-date">Oct 2026</div>
-      <div class="news-text"><span class="tag t-award">Award</span><strong>V-TAP gripper</strong> named finalist for the <strong>IROS 2026 Best Paper Award</strong>.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">Sep 2026</div>
-      <div class="news-text"><span class="tag t-press">Press</span>Underwater robot featured on <a href="https://www.purdue.edu/newsroom/2026/Q3/purdues-new-underwater-robot-could-make-ocean-missions-more-reliable/" target="_blank">Purdue Newsroom</a> and <a href="https://www.wlfi.com/2026/09/04/purdue-students-help-develop-underwater-robot-with-multiple-ways-move/" target="_blank">WLFI TV</a>.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">Aug 2026</div>
-      <div class="news-text"><span class="tag t-pub">Publication</span><a href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank"><strong>FibTac</strong></a> published in <em>npj Robotics</em> (Nature Portfolio). 2,300+ accesses in first month.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2026</div>
-      <div class="news-text"><span class="tag t-award">Award</span><strong>V-TAP gripper</strong> wins <strong>2nd Prize</strong> at the <a href="https://sites.google.com/site/asmemrc/design-competition-showcase" target="_blank">ASME MRC Design Competition</a>.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">Apr 2025</div>
-      <div class="news-text"><span class="tag t-ms">Milestone</span>Passed PhD Preliminary Examination at Purdue University.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">Jun 2024</div>
-      <div class="news-text"><span class="tag t-press">Press</span>Tactile sensing work featured in <a href="https://ag.purdue.edu/news/2024/06/how-robots-touch-on-the-future-of-agriculture.html" target="_blank">Purdue College of Agriculture News</a>.</div>
-    </div>
-  </div>
-</div>
-</div>
+<!-- ═══ NEWS ═══ -->
+<section class="section">
+  <div class="section-head"><h2>News</h2></div>
+  <table class="news">
+    <tr><td class="d">Oct 2026</td><td>🏅 <strong>VTAP Gripper</strong> selected as a <strong>Best Paper Award Finalist</strong> at IROS 2026 (top 0.23% of submissions).</td></tr>
+    <tr><td class="d">Sep 2026</td><td>Our trimodal underwater robot featured on <a href="https://www.purdue.edu/newsroom/2026/Q3/purdues-new-underwater-robot-could-make-ocean-missions-more-reliable/" target="_blank">Purdue Newsroom</a> and <a href="https://www.wlfi.com/2026/09/04/purdue-students-help-develop-underwater-robot-with-multiple-ways-move/" target="_blank">WLFI TV</a>.</td></tr>
+    <tr><td class="d">Aug 2026</td><td>📄 <a href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank"><strong>FibTac</strong></a> published in <em>npj Robotics</em> (Nature Portfolio).</td></tr>
+    <tr><td class="d">Aug 2026</td><td>Started as a Postdoctoral Researcher at the University of Notre Dame with Prof. Nikolaus Correll, working on dexterous robotic hands.</td></tr>
+    <tr><td class="d">Jun 2026</td><td>Three papers accepted at IROS 2026: <strong>VTAP Gripper</strong>, <strong>MVP-Tac</strong>, and <strong>MuxGel</strong>.</td></tr>
+    <tr><td class="d">2026</td><td>🥈 <strong>VTAP Gripper</strong> wins 2nd Prize at the <a href="https://sites.google.com/site/asmemrc/design-competition-showcase" target="_blank">ASME Student Mechanism &amp; Robot Design Competition</a>.</td></tr>
+    <tr class="more"><td class="d">2026</td><td>Multimodal underwater robot paper accepted at ASME IDETC/CIE 2026.</td></tr>
+    <tr class="more"><td class="d">Apr 2025</td><td>Passed Ph.D. Preliminary Examination at Purdue.</td></tr>
+    <tr class="more"><td class="d">2025</td><td><strong>VibTac</strong> published in IEEE Transactions on Haptics; <strong>TacScope</strong> published in Advanced Robotics Research.</td></tr>
+    <tr class="more"><td class="d">Jun 2024</td><td>Tactile sensing work featured in <a href="https://ag.purdue.edu/news/2024/06/how-robots-touch-on-the-future-of-agriculture.html" target="_blank">Purdue College of Agriculture News</a>.</td></tr>
+    <tr class="more"><td class="d">2023</td><td><strong>VisTac</strong> published in IEEE Sensors Journal.</td></tr>
+    <tr class="more"><td class="d">Aug 2022</td><td>Started Ph.D. at Purdue University, MARS Lab.</td></tr>
+  </table>
+  <button class="news-toggle">Show older news</button>
+</section>
 
-<!-- SELECTED PUBLICATIONS -->
-<div class="container">
-<div class="section">
-  <div class="section-label">Selected Publications · <a href="publications.html" style="color:var(--accent);font-weight:500;text-transform:none;letter-spacing:0;font-size:.75rem">View all →</a></div>
-  <div class="pub-preview">
+<!-- ═══ SELECTED PUBLICATIONS ═══ -->
+<section class="section">
+  <div class="section-head"><h2>Selected Publications</h2><a href="publications.html">Full list →</a></div>
 
-    <div class="pub-row">
-      <img class="pub-thumb" src="https://img.youtube.com/vi/vnFHvJH3SpY/mqdefault.jpg" alt="FibTac">
-      <div class="pub-info">
-        <div class="pub-title">FibTac: A Fiber-Based Pneumatic Gripper with Embodied Tactile Sensing</div>
-        <div class="pub-authors"><strong>Sheeraz Athar</strong>, X. Zhang, M. R. I. Prince, V. G. Duffy, Yu She</div>
-        <div class="pub-venue">npj Robotics, Nature Portfolio, 2026</div>
-        <div class="pub-tags"><span class="pt purple">Nature Portfolio</span><span class="pt gold">🏅 IROS 2026 Best Paper Finalist</span></div>
-        <div class="pub-links">
-          <a class="pl solid" href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank">Paper</a>
-          <a class="pl outline" href="https://www.youtube.com/watch?v=vnFHvJH3SpY" target="_blank">Video</a>
-          <a class="pl outline" href="https://github.com/xvvzhang/FibTac" target="_blank">Code</a>
-        </div>
-      </div>
+  <article class="pub">
+    <div class="thumb video" data-yt="jpdKHdlv6mQ"><img src="https://img.youtube.com/vi/jpdKHdlv6mQ/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
+    <div>
+      <span class="venue-badge">IROS 2026</span>
+      <h3><a href="https://yuhao-zhou.com/vtap/index.html" target="_blank">VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation</a></h3>
+      <div class="authors">Yuhao Zhou, <b>Sheeraz Athar</b>*, Zhixian Hu*, Binghao Huang, Yunzhu Li, Juan Wachs, Yu She</div>
+      <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems</div>
+      <div class="honor">🏅 Best Paper Award Finalist (top 0.23%) · 🥈 ASME SMRDC 2026 2nd Prize</div>
+      <div class="plinks"><a class="primary" href="https://arxiv.org/abs/2607.15448" target="_blank">Paper</a><a href="https://yuhao-zhou.com/vtap/index.html" target="_blank">Project page</a><a href="https://youtu.be/jpdKHdlv6mQ" target="_blank">Video</a></div>
     </div>
+  </article>
 
-    <div class="pub-row">
-      <img class="pub-thumb" src="https://img.youtube.com/vi/kmKIUlXGroo/mqdefault.jpg" alt="VibTac">
-      <div class="pub-info">
-        <div class="pub-title">VibTac: A High-Resolution, High-Bandwidth Tactile Sensing Finger for Multimodal Perception</div>
-        <div class="pub-authors"><strong>Sheeraz Athar</strong>, X. Zhang, J. Ueda, Y. Zhao, Yu She</div>
-        <div class="pub-venue">IEEE Transactions on Haptics, 2025</div>
-        <div class="pub-tags"><span class="pt gold">🥈 ASME MRC 2nd Prize</span></div>
-        <div class="pub-links">
-          <a class="pl solid" href="https://doi.org/10.1109/TOH.2025.3561049" target="_blank">DOI</a>
-          <a class="pl outline" href="https://www.youtube.com/watch?v=kmKIUlXGroo&t=12s" target="_blank">Video</a>
-        </div>
-      </div>
+  <article class="pub">
+    <div class="thumb video" data-yt="vnFHvJH3SpY"><img src="https://img.youtube.com/vi/vnFHvJH3SpY/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
+    <div>
+      <span class="venue-badge nature">npj Robotics</span>
+      <h3><a href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank">FibTac: A Fiber-Based Pneumatic Gripper with Embodied Tactile Sensing</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Xinwei Zhang, Md Rakibul Islam Prince, Vincent G. Duffy, Yu She</div>
+      <div class="venue">npj Robotics (Nature Portfolio), vol. 4, art. 47, 2026 · Open Access</div>
+      <div class="plinks"><a class="primary" href="https://www.nature.com/articles/s44182-026-00112-0" target="_blank">Paper</a><a href="https://www.nature.com/articles/s44182-026-00112-0.pdf" target="_blank">PDF</a><a href="https://github.com/xvvzhang/FibTac" target="_blank">Code</a><a href="https://youtu.be/vnFHvJH3SpY" target="_blank">Video</a></div>
     </div>
+  </article>
 
-    <div class="pub-row">
-      <img class="pub-thumb" src="https://img.youtube.com/vi/SLN2gQ_haYs/mqdefault.jpg" alt="VisTac">
-      <div class="pub-info">
-        <div class="pub-title">VisTac: Towards a Unified Multimodal Sensing Finger for Robotic Manipulation</div>
-        <div class="pub-authors"><strong>Sheeraz Athar</strong>, G. Patel, Z. Xu, Q. Qiu, Yu She</div>
-        <div class="pub-venue">IEEE Sensors Journal, 2023</div>
-        <div class="pub-links">
-          <a class="pl solid" href="https://doi.org/10.1109/JSEN.2023.3310918" target="_blank">DOI</a>
-          <a class="pl outline" href="https://www.youtube.com/watch?v=SLN2gQ_haYs" target="_blank">Video</a>
-        </div>
-      </div>
+  <article class="pub">
+    <div class="thumb video" data-yt="J4jDJU6wQ2s"><img src="https://img.youtube.com/vi/J4jDJU6wQ2s/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
+    <div>
+      <span class="venue-badge">ASME IDETC 2026</span>
+      <h3><a href="https://doi.org/10.1115/1.4072705" target="_blank">Design and Development of a Multimodal Underwater Robot: An All-In-One Drifter, Glider, and Thruster</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Craig Hillyer, Vikas Vivek, Siddhant Shelar, Andrew Song, Nhan Nguyen, Arushi Patel, Cindy Huang, Yu She</div>
+      <div class="venue">ASME International Design Engineering Technical Conferences · Patent pending · NSF #2322056</div>
+      <div class="plinks"><a class="primary" href="https://doi.org/10.1115/1.4072705" target="_blank">Paper</a><a href="https://www.youtube.com/watch?v=J4jDJU6wQ2s" target="_blank">Video</a><a href="https://www.purdue.edu/newsroom/2026/Q3/purdues-new-underwater-robot-could-make-ocean-missions-more-reliable/" target="_blank">Purdue News</a><a href="https://www.wlfi.com/2026/09/04/purdue-students-help-develop-underwater-robot-with-multiple-ways-move/" target="_blank">WLFI TV</a></div>
     </div>
+  </article>
 
-  </div>
-</div>
-</div>
+  <article class="pub">
+    <div class="thumb video" data-yt="kmKIUlXGroo" data-start="12"><img src="https://img.youtube.com/vi/kmKIUlXGroo/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
+    <div>
+      <span class="venue-badge">IEEE T-Haptics</span>
+      <h3><a href="https://ieeexplore.ieee.org/document/10965524/" target="_blank">VibTac: A High-Resolution, High-Bandwidth Tactile Sensing Finger for Multimodal Perception in Robotic Manipulation</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Xinwei Zhang, Jun Ueda, Ye Zhao, Yu She</div>
+      <div class="venue">IEEE Transactions on Haptics, vol. 18, pp. 507–518, 2025</div>
+      <div class="plinks"><a class="primary" href="https://ieeexplore.ieee.org/document/10965524/" target="_blank">Paper</a><a href="https://www.youtube.com/watch?v=kmKIUlXGroo" target="_blank">Video</a></div>
+    </div>
+  </article>
 
-<!-- BACKGROUND -->
-<div class="container">
-<div class="section">
-  <div class="section-label">Background</div>
-  <div class="timeline">
-    <div class="tl">
-      <div class="tl-year">2026 – Present</div>
-      <div class="tl-role">Postdoctoral Researcher</div>
-      <div class="tl-place"><a href="https://www.nd.edu/" target="_blank">University of Notre Dame</a> · <a href="https://ame.nd.edu/faculty/nikolaus-correll/" target="_blank">PAIR Initiative</a> · Host: Prof. Nikolaus Correll</div>
-      <div class="tl-desc">Dexterous robotic hands at the intersection of manipulation, smart materials, and physical AI.</div>
+  <article class="pub">
+    <div class="thumb video" data-yt="SLN2gQ_haYs"><img src="https://img.youtube.com/vi/SLN2gQ_haYs/hqdefault.jpg" alt=""><div class="play"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9z"/></svg></div></div>
+    <div>
+      <span class="venue-badge">IEEE Sensors J.</span>
+      <h3><a href="https://ieeexplore.ieee.org/document/10242327" target="_blank">VisTac: Towards a Unified Multimodal Sensing Finger for Robotic Manipulation</a></h3>
+      <div class="authors"><b>Sheeraz Athar</b>, Gaurav Patel, Zhengtong Xu, Qiang Qiu, Yu She</div>
+      <div class="venue">IEEE Sensors Journal, vol. 23, no. 20, pp. 25440–25450, 2023</div>
+      <div class="plinks"><a class="primary" href="https://ieeexplore.ieee.org/document/10242327" target="_blank">Paper</a><a href="https://www.youtube.com/watch?v=SLN2gQ_haYs" target="_blank">Video</a></div>
     </div>
-    <div class="tl">
-      <div class="tl-year">2022 – 2026</div>
-      <div class="tl-role">PhD, Industrial Engineering</div>
-      <div class="tl-place"><a href="https://www.purdue.edu/" target="_blank">Purdue University</a> · <a href="https://www.purduemars.com/" target="_blank">MARS Lab</a> · Advisor: Prof. Yu She</div>
-      <div class="tl-desc">Embodied tactile sensing for soft robotic grippers. Published in npj Robotics (Nature). NSF-supported.</div>
-    </div>
-    <div class="tl">
-      <div class="tl-year">2019 – 2022</div>
-      <div class="tl-role">M.Phil., Robotics</div>
-      <div class="tl-place"><a href="https://hkust.edu.hk/home" target="_blank">HKUST</a> · Cheng Kar-Shun Robotics Institute · Advisor: Prof. Michael Yu Wang</div>
-      <div class="tl-desc">Origami-inspired soft actuators and robot manipulation.</div>
-    </div>
-    <div class="tl">
-      <div class="tl-year">2016 – 2020</div>
-      <div class="tl-role">B.E., Mechanical Engineering</div>
-      <div class="tl-place"><a href="https://www.amu.ac.in/" target="_blank">Aligarh Muslim University</a>, India</div>
-      <div class="tl-desc">EEG-based exoskeleton for finger rehabilitation.</div>
-    </div>
-  </div>
-</div>
-</div>
+  </article>
+</section>
 
-<!-- MEDIA -->
-<div class="container">
-<div class="section">
-  <div class="section-label">Media Coverage</div>
-  <div class="media-row">
-    <a class="media-card" href="https://www.purdue.edu/newsroom/2026/Q3/purdues-new-underwater-robot-could-make-ocean-missions-more-reliable/" target="_blank">
-      <img class="media-img" src="https://www.purdue.edu/newsroom/wp-content/uploads/2026/08/YuShe-OG.jpg" alt="" loading="lazy">
-      <div class="media-body">
-        <div class="media-src">Purdue Newsroom</div>
-        <div class="media-hl">Purdue's new underwater robot could make ocean missions more reliable</div>
-        <div class="media-date">Aug 26, 2026</div>
-      </div>
-    </a>
-    <a class="media-card" href="https://www.wlfi.com/2026/09/04/purdue-students-help-develop-underwater-robot-with-multiple-ways-move/" target="_blank">
-      <img class="media-img" src="https://gray-wlfi-prod.gtv-cdn.com/resizer/v2/LCZGSWZHTJALLBPUWZIYKHENA4.jpg?auth=3f6832500e2847a51a07d185c917b05a90576c080b37e32e6a2a04f5dc36d97b&width=1200&height=600&smart=true" alt="" loading="lazy">
-      <div class="media-body">
-        <div class="media-src">WLFI TV</div>
-        <div class="media-hl">Purdue Students Help Develop Underwater Robot With Multiple Ways to Move</div>
-        <div class="media-date">Sep 4, 2026</div>
-      </div>
-    </a>
-    <a class="media-card" href="https://ag.purdue.edu/news/2024/06/how-robots-touch-on-the-future-of-agriculture.html" target="_blank">
-      <div class="media-ph">🌾</div>
-      <div class="media-body">
-        <div class="media-src">Purdue Agriculture</div>
-        <div class="media-hl">How Robots Touch on the Future of Agriculture</div>
-        <div class="media-date">Jun 2024</div>
-      </div>
-    </a>
-  </div>
-</div>
-</div>
+<!-- ═══ BACKGROUND ═══ -->
+<section class="section">
+  <div class="section-head"><h2>Background</h2></div>
+  <ul class="tl">
+    <li><span class="yr">2026 – now</span><span class="what"><b>Postdoctoral Researcher</b>, University of Notre Dame — PAIR Initiative, Prof. Nikolaus Correll</span></li>
+    <li><span class="yr">2022 – 2026</span><span class="what"><b>Ph.D., Industrial Engineering</b>, Purdue University — MARS Lab, Prof. Yu She</span></li>
+    <li><span class="yr">2019 – 2022</span><span class="what"><b>M.Phil., Robotics</b>, HKUST — Cheng Kar-Shun Robotics Institute, Prof. Michael Yu Wang</span></li>
+    <li><span class="yr">2016 – 2020</span><span class="what"><b>B.E., Mechanical Engineering</b>, Aligarh Muslim University, India</span></li>
+  </ul>
+</section>
 
-<footer class="container">
+</main>
+<footer><div class="wrap">
   <span>© 2026 Sheeraz Athar · <a href="mailto:athar@nd.edu">athar@nd.edu</a></span>
   <span>University of Notre Dame</span>
-</footer>
-
-</body>
-</html>
+</div></footer>
+<script>
+// click-to-play: swaps a thumbnail for the YouTube embed
+document.querySelectorAll('.thumb.video').forEach(t=>{
+  t.addEventListener('click',()=>{
+    const id=t.dataset.yt, start=t.dataset.start||0;
+    t.innerHTML='<iframe src="https://www.youtube.com/embed/'+id+'?autoplay=1&start='+start+'&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    t.classList.add('playing');
+  });
+});
+// news show/hide
+const nt=document.querySelector('.news-toggle');
+if(nt){nt.addEventListener('click',()=>{const n=document.querySelector('.news');n.classList.toggle('open');nt.textContent=n.classList.contains('open')?'Show less':'Show older news';});}
+</script>
+</body></html>
