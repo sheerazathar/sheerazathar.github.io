@@ -1,0 +1,101 @@
+/* Notre Dame theme — loaded after style.css; overrides tokens + a few shapes.
+   Palette: ND Blue #0c2340, ND Gold #C99700 / Metallic Gold #AE9142, Sky Blue #1C4F8B.
+   Type: Garamond (EB Garamond) for display/serif, Libre Franklin for body (Trade Gothic stand-in). */
+/* Tokens from the official ND Web Theme v4 (webtheme.nd.edu): brand-blue #0c2340, brand-blue-bright #1c4f8f,
+   brand-gold #ae9142, brand-gold-bright #d39f10, sky-blue-light #edf2f9, sky-blue-dark #c1cddd, gray #555, gray-dark #333,
+   dark page bg #091b34. Fonts: Garamond Premier Pro + Galaxie Polaris → nearest free: EB Garamond + Public Sans. */
+:root{
+  --paper:#ffffff; --surface:#edf2f9; --ink:#0c2340; --ink-2:#333333; --ink-3:#555555;
+  --rule:#e9ebee; --rule-2:#d6dadf;
+  --accent:#1c4f8f; --accent-ink:#1c4f8f; --accent-soft:#e1e8f2;
+  --gold:#8c7535; --gold-soft:#f8f4ec; --nd-gold:#ae9142; --nd-gold-m:#8c7535; --nd-blue:#0c2340;
+  --dot-rgb:12,35,64; --accent-rgb:28,79,143;
+  --serif:"EB Garamond","Garamond Premier Pro",Garamond,"Iowan Old Style",Georgia,serif;
+  --sans:"Public Sans","Galaxie Polaris",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"Public Sans","Galaxie Polaris",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --r:4px;
+  color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --paper:#091b34; --surface:#0c2340; --ink:#ffffff; --ink-2:#e1e8f2; --ink-3:#c1cddd;
+  --rule:#143865; --rule-2:#1c4f8f;
+  --accent:#d39f10; --accent-ink:#ddc278; --accent-soft:#143865;
+  --gold:#ddc278; --gold-soft:#143865; --nd-gold:#d39f10; --nd-gold-m:#ddc278; --nd-blue:#0c2340;
+  --dot-rgb:255,255,255; --accent-rgb:211,159,16;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#091b34; --surface:#0c2340; --ink:#ffffff; --ink-2:#e1e8f2; --ink-3:#c1cddd;
+    --rule:#143865; --rule-2:#1c4f8f;
+    --accent:#d39f10; --accent-ink:#ddc278; --accent-soft:#143865;
+    --gold:#ddc278; --gold-soft:#143865; --nd-gold:#d39f10; --nd-gold-m:#ddc278; --nd-blue:#0c2340;
+    --dot-rgb:255,255,255; --accent-rgb:211,159,16;
+    color-scheme:dark;
+  }
+}
+
+/* type: Garamond display is lighter than Instrument Serif, so tighten less and size up slightly */
+body{font-size:17px;line-height:1.6;color:var(--ink-2)}
+h1,h2,h3,h4,.display,.sh h2,.work h3,.step h4,.themes h3{color:var(--ink)}
+.display{letter-spacing:-.01em;line-height:.98;font-weight:400}
+.display em{font-style:italic;color:var(--accent-ink)}
+.sh h2,.work h3,.step h4,.themes h3,.tile h3{letter-spacing:0}
+.eyebrow,.who-role,.sh-k,.venue,.tag-now,.now b,.news li .d,.step .yrs,.themes .idx,.themes .sys,.press .o,.press .dt,.tm h3{font-family:var(--sans);font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+.sh-k,.themes .cur .idx,.news li.key .d{color:var(--nd-gold-m)}
+:root[data-theme="dark"] .sh-k{color:var(--nd-gold)}
+.themes .idx{color:var(--ink-3)}
+
+/* gold hairline under section titles — ND's signature rule */
+.sh{position:relative;padding-bottom:.9rem}
+.sh::after{content:"";position:absolute;left:0;bottom:0;width:56px;height:3px;background:var(--nd-gold)}
+.hero{border-bottom:3px solid var(--nd-gold)}
+
+/* nav: ND blue bar */
+.nav{background:#0c2340;border-top:4px solid #ae9142;border-bottom:1px solid #143865;backdrop-filter:none;-webkit-backdrop-filter:none}
+.nav.scrolled{border-bottom-color:#143865}
+.nav .brand,.nav .nav-links a,.nav .theme-toggle,.nav button{color:#fff}
+.nav .brand span{color:#ddc278}
+.nav .nav-links a{color:#d6dde8;font-weight:500}
+.nav .nav-links a:hover,.nav .nav-links a.active{color:#fff}
+.nav .nav-links a.active::after{background:#d39f10;width:100%;height:2px;border-radius:0;bottom:-4px}
+
+/* shapes: squarer, institutional */
+.btn,.venue,.award,.tag-now,.now,.news-more{border-radius:var(--r)}
+.btn{border-color:var(--ink);color:var(--ink);background:transparent;font-weight:600;letter-spacing:.02em}
+.btn:hover{background:var(--accent-soft);border-color:var(--ink);transform:none}
+.btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.primary:hover{background:var(--nd-gold);border-color:var(--nd-gold);color:#0c2340}
+:root[data-theme="dark"] .btn.primary{background:var(--nd-gold);color:#0c2340;border-color:var(--nd-gold)}
+:root[data-theme="dark"] .btn.primary:hover{background:#fff;border-color:#fff}
+:root[data-theme="dark"] .btn{border-color:#fff;color:#fff}
+.award{color:#0c2340;background:#f8f4ec;border:1px solid #ddc278;font-weight:600}
+:root[data-theme="dark"] .award{color:#fff;background:transparent;border-color:var(--nd-gold)}
+.portrait img{border-radius:var(--r);box-shadow:none;outline:1px solid var(--rule)}
+.media16,.themes .tv{border-radius:var(--r)}
+.themes .tv{border-color:var(--rule-2)}
+.step.cur::before{background:var(--nd-gold);border-color:var(--nd-gold);box-shadow:0 0 0 5px rgba(201,151,0,.18)}
+.work h3 a{background-image:linear-gradient(var(--nd-gold),var(--nd-gold))}
+.lede a:hover,.news li a:hover{text-decoration-color:var(--nd-gold)}
+.themes a:hover h3{color:var(--accent-ink)}
+:root[data-theme="dark"] .themes a:hover h3{color:var(--nd-gold)}
+.mail{border-bottom-color:var(--nd-gold)}
+::selection{background:var(--nd-gold);color:#0c2340}
+
+/* contact + footer in ND blue, both themes */
+.contact{background:#0c2340;color:#fff;border-top:4px solid #ae9142}
+.contact .display,.contact p,.contact .mail{color:#fff}
+.contact .sh-k{color:#ddc278}
+.contact::before{background-image:radial-gradient(circle,rgba(255,255,255,.12) 1.2px,transparent 1.6px)}
+footer{background:#081629;color:#c1cddd;border-top:0}
+footer a{color:#e1e8f2}
+
+/* hero dot field: calmer in ND light */
+#field{opacity:.55}
+/* nav + chips: keep labels on one line */
+.nav-links{gap:1.1rem;flex-wrap:nowrap}
+.nav-links a,.chip{white-space:nowrap}
+.chips{flex-wrap:wrap}.chip{border-radius:var(--r)}.count{white-space:nowrap}
+@media (max-width:860px){.nav-links{gap:.8rem}.nav-links a{font-size:.85rem}}
+
+/* theme-color meta is static; keep dark-mode canvas accent gold */
